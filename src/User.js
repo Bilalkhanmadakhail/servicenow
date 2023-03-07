@@ -54,12 +54,12 @@ function User(props) {
 
 
             <div className='flex justify-around px-20 py-10 border-b-2 border-gray-300 '>
-                <div className='flex'> <img className='w-12 h-12  ' src={pc} /> <h1 className='text-xl mt-2 ml-5'>
+                <div className='flex cursor-pointer'> <img className='w-12 h-12  ' src={pc} /> <h1 className='text-xl mt-2 ml-5'>
                     {props.fordemo}</h1></div>
-                <div className='flex'> <img className='w-12 h-12 ' src={bell} /> <h1 className='text-xl pl-5 mt-2  ml-5'>{props.forcontact}
+                <div className='flex cursor-pointer'> <img className='w-12 h-12 ' src={bell} /> <h1 className='text-xl pl-5 mt-2  ml-5'>{props.forcontact}
 
                 </h1></div>
-                <div className='flex'> <img className='w-12 h-12 ' src={searchicon} /> <h1 className='text-xl mt-2 ml-5'>
+                <div className='flex cursor-pointer'> <img className='w-12 h-12 ' src={searchicon} /> <h1 className='text-xl mt-2 ml-5'>
 
                     {props.lookingfor}</h1></div>
             </div>
@@ -114,10 +114,10 @@ function User(props) {
 { selectedDiv === 2 && <div className="flex justify-start px-10 mt-20 items-start">
 
                 <div className="w-[50%] mt-40   ">
-                    <h2 className='flex items-start text-lg  font-bold'>IT Workflows</h2>
+                    <h2 className='flex items-start text-lg  font-bold'>Employee Workflows</h2>
                     <h1 className='text-4xl font-bold  flex items-start  pt-5 pb-5'>
-                        {props.h3}</h1>
-                    <p className=' text-xl w-[90%] flex justify-start text-left  ' >{props.para3}</p>
+                        {props.part3h3}</h1>
+                    <p className=' text-xl w-[90%] flex justify-start text-left  ' >{props.part3para3}</p>
                     <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 rounded-md  '>
                         {props.btn3}
                     </button>
@@ -136,10 +136,10 @@ function User(props) {
 { selectedDiv === 3 &&  <div className="flex justify-start px-10 mt-20 items-start">
 
                 <div className="w-[50%] mt-40   ">
-                    <h2 className='flex items-start text-lg  font-bold'>IT Workflows</h2>
+                    <h2 className='flex items-start text-lg  font-bold'>Customer Workflows</h2>
                     <h1 className='text-4xl font-bold  flex items-start  pt-5 pb-5'>
-                        {props.h3}</h1>
-                    <p className=' text-xl w-[90%] flex justify-start text-left  ' >{props.para3}</p>
+                        {props.part3h3}</h1>
+                    <p className=' text-xl w-[90%] flex justify-start text-left  ' >{props.part3para3}</p>
                     <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 rounded-md  '>
                         {props.btn3}
                     </button>
@@ -158,10 +158,10 @@ function User(props) {
 { selectedDiv === 4 &&  <div className="flex justify-start px-10 mt-20 items-start">
 
                 <div className="w-[50%] mt-40   ">
-                    <h2 className='flex items-start text-lg  font-bold'>IT Workflows</h2>
+                    <h2 className='flex items-start text-lg  font-bold'>Creator Workflows</h2>
                     <h1 className='text-4xl font-bold  flex items-start  pt-5 pb-5'>
-                        {props.h3}</h1>
-                    <p className=' text-xl w-[90%] flex justify-start text-left  ' >{props.para3}</p>
+                        {props.part4h3}</h1>
+                    <p className=' text-xl w-[90%] flex justify-start text-left  ' >{props.part4para3}</p>
                     <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 rounded-md  '>
                         {props.btn3}
                     </button>

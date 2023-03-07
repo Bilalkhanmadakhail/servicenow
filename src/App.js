@@ -19,8 +19,13 @@ function App() {
 
       <User make='Make YES Work' fordemo='Try Demo' forcontact='Contact Sales' lookingfor='View Customer Stories' explore='Explore Platform' para2='Behind every great experience is a great workflow. As the foundation for all digital workflows, the Now Platform® connects people, functions, and systems across your organization.' h2='The platform of platforms' workflow1='IT Workflows' workflow2='Employee Workflows
 
-' workflow3='Customer Workflows' workflow4='Creator Workflows'  h3='Unleash the power of IT'
-      para3='Transform your business with digital IT workflows. Modernize your operations to optimize productivity, cost, and resilience with a single platform for IT.' btn3='Get Details' h4='Personalize your value acceleration' para4='Maximize your investment with ServiceNow Impact. Realize value faster with experts on demand, premium support, and preventive tools to guide your digital transformation.' trust='Trusted by ~7,700 enterprise customers' btnforblue='Read Story' bluepara='With data-driven insights from over 200 bread-making facilities, Grupo Bimbo raises quality control on a global scale.' blueh1='Digital efficiency brings bread to the world' btnlast='See All News' afterblueh1='What’s new at ServiceNow' 
+' workflow3='Customer Workflows' workflow4='Creator Workflows'   h3='Unleash the power of IT' part2h3='Elevate the employee experience' part3h3='Drive customer loyalty' part4h3='Build apps fast'
+para3='Transform your business with digital IT workflows. Modernize your operations to optimize productivity, cost, and resilience with a single platform for IT.'  
+     part2para3='Make it easier for employees to get what they need, when they need it. Embed intelligence into every interaction to deliver experiences that break down silos and unlock productivity.'
+      part3para3='Reimagine the customer experience to create instant satisfaction. Scale service operations with connected digital workflows to automate work across departments.' 
+      part4para3='Create intuitive experiences users love. Quickly build digital workflow apps and scale across the enterprise with a low-code platform.' 
+      
+      btn3='Get Details' h4='Personalize your value acceleration' para4='Maximize your investment with ServiceNow Impact. Realize value faster with experts on demand, premium support, and preventive tools to guide your digital transformation.' trust='Trusted by ~7,700 enterprise customers' btnforblue='Read Story' bluepara='With data-driven insights from over 200 bread-making facilities, Grupo Bimbo raises quality control on a global scale.' blueh1='Digital efficiency brings bread to the world' btnlast='See All News' afterblueh1='What’s new at ServiceNow' 
       
       
        box1h1='NEWS' box1h2='ServiceNow and AT&T announce telco solution' box1p='Learn how Telecom Network Inventory helps communications service providers manage 5G and fiber networkinventory.' box1h3='Read Press Release'
