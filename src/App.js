@@ -12,9 +12,9 @@ function App() {
 
 
   return (
-    <div className="App w-[100%] ">
+    <div style={{width:' 100%'}} className="App">
 
-      <NavBAR product='products' Solution='Solutions' Platform='Platform'
+      <NavBAR product='Products' Solution='Solutions' Platform='Platform'
         Customer='Customers' Events='Events' About='About' button='Get Started' img={logo} />
 
       <User make='Make YES Work' fordemo='Try Demo' forcontact='Contact Sales' lookingfor='View Customer Stories' explore='Explore Platform' para2='Behind every great experience is a great workflow. As the foundation for all digital workflows, the Now Platform® connects people, functions, and systems across your organization.' h2='The platform of platforms' workflow1='IT Workflows' workflow2='Employee Workflows
@@ -26,6 +26,7 @@ para3='Transform your business with digital IT workflows. Modernize your operati
       part4para3='Create intuitive experiences users love. Quickly build digital workflow apps and scale across the enterprise with a low-code platform.' 
       
       btn3='Get Details' h4='Personalize your value acceleration' para4='Maximize your investment with ServiceNow Impact. Realize value faster with experts on demand, premium support, and preventive tools to guide your digital transformation.' trust='Trusted by ~7,700 enterprise customers' btnforblue='Read Story' bluepara='With data-driven insights from over 200 bread-making facilities, Grupo Bimbo raises quality control on a global scale.' blueh1='Digital efficiency brings bread to the world' btnlast='See All News' afterblueh1='What’s new at ServiceNow' 
+      it='IT Workflows'  Employee='Employee Workflows' Customer='Customer Workflows' Creator='Creator workflow' stories='View All Stories'
       
       
        box1h1='NEWS' box1h2='ServiceNow and AT&T announce telco solution' box1p='Learn how Telecom Network Inventory helps communications service providers manage 5G and fiber networkinventory.' box1h3='Read Press Release'
@@ -54,10 +55,10 @@ para3='Transform your business with digital IT workflows. Modernize your operati
       <Student mainli1='Company' li1='About' li2='Careers' li3='Locations' li4='Partners' li5='Suppliers' li6='Investors' li7='Newsroom' li8='Blog' li9='Workflow magazine: Insights and research'
         mainli2='Services and Support' li21='Services' li22='Now Support portal'
 
-        mainli3='Resources' li31='Customer stories' li32='ServiceNow Research' li33='Now on Now' li34='Training and certification' li35='User community' li36='InveDeveloper portalstors' li37='NewProduct documentationsroom' li38='Product accessibility
+        mainli3='Resources' li31='Customer stories' li32='ServiceNow Research' li33='Now on Now' li34='Training and certification' li35='User community' li36='Developer portalstors' li37='Product documentationsroom' li38='Product accessibility
     '  li39='Resource library'
 
-        mainli4='My Account' li41='Sign in' li42='Register' submit='Subcribe' />
+        mainli4='My Account' li41='Sign in' li42='Register' submit='Subcribe' servicemark='The world works with ServiceNow™' updates='Get the latest ServiceNow updates' connect='Connect with us' us='United States - Global' req='Request info or schedule a demo' coprit='©️2023 ServiceNow. All rights reserved. last' lastli1='Terms and conditions'  lastli3='Privacy statement'  lastli4=' Cookie policy'  lastli5='Cookie Preferences'  lastli6=' Sitemap' lastli7='Business continuity ' lastli8='Accessibility  ' lastli9='Website feedback'  lastli2='GDPR'   />
 
        
 
