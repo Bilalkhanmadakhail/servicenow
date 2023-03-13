@@ -40,7 +40,7 @@ function NavBar(props) {
 
                 </ul>
                 <div className='flex py-5 justify-around md:w-[22%] w-[35%] mr-5'>
-                    <button className='md:px-7 px-5 py-2 rounded-sm font-semibold text-white bg-[#293e40]'> {props.button}</button>
+                    <button className='md:px-7 px-4 sm:text-lg text-sm py-2 rounded-sm font-semibold text-white bg-[#293e40]'> {props.button}</button>
 
                     <img className=' mt-2 w-[28px] h-[28px] hidden xl:block' src={search} />
                     <img className='mt-2 w-[28px] h-[28px] hidden xl:block' src={globe} />

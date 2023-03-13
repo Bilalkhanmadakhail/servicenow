@@ -78,8 +78,8 @@ function User(props) {
 
 
             <div className="lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col justify-start items-start">
-                <div className="lg:w-[50%] md:w-[100%] sm:w-[100%] bg-[#032d42] xl:h-[550px] lg:h-[500px] md:h-[500px] sm:h-[400px] ">
-                    <h1 className='xl:text-5xl lg:text-4xl md:text-5xl sm:text-4xl  font-bold text-[#fff] flex items-start px-5 sm:px-12 pt-10  sm:pt-14 md:pt-28 pb-4 sm:pb-7'>PUT&nbsp; <span className='text-[#62d84e]'>YES</span> &nbsp;TO WORK</h1>
+                <div className="lg:w-[50%] md:w-[100%] pb-5 sm:pb-0 sm:w-[100%] bg-[#032d42] xl:h-[550px] lg:h-[500px] md:h-[500px] sm:h-[400px] ">
+                    <h1 className='xl:text-5xl lg:text-4xl md:text-5xl sm:text-4xl  gtext-2xl  font-bold text-[#fff] flex items-start px-5 sm:px-12 pt-10  sm:pt-14 md:pt-28 pb-4 sm:pb-7'>PUT&nbsp; <span className='text-[#62d84e]'>YES</span> &nbsp;TO WORK</h1>
                     <p className='text-[#fff] leading-7 sm:leading-10 xl:text-[1.6rem] md:text-[1.6rem] lg:text-[1.2rem] w-[96%] sm:text-[1.2rem] text-left px-5  sm:px-10 ' >Save or grow? Satisfy shareholders or satisfy customers? When facing tough choices, choose the one platform that lets you say <span className='text-[#62d84e] font-bold'>YES</span> to both.</p>
                     <button className='flex items-start sm:ml-0 ml-5 md:ml-10 sm:mx-10 font-semibold bg-[#62d84e] sm:mt-14 mt-4 py-3 sm:py-4 xl:px-11 md:px-11 px-5 sm:px-11 lg:px-8 rounded-md sm:text-xl text-sm '>
                         {props.make}
