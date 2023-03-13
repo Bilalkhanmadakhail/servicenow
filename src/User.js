@@ -272,8 +272,8 @@ function User(props) {
 
                 <div className='bg-[#f7f7f7] flex flex-col flex-wrap' >
                     <div className='md:flex md:flex-row flex flex-col justify-between w-[100%] px-10  text-left '>
-                        <div className='lg:w-[30%] md:w-[32%] w-[100%]  bg-[#fff]'> <div className='h-[200px]'><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%]' src={boxmain} /></div>
-                            <div className='mx-4 md:mt-4 sm:mt-40'>
+                        <div className='lg:w-[30%] md:w-[32%] w-[100%]  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px'><img className='lg:w-[85%] md:w-[100%] m-auto sm-[350px] md:h-full hover:w-[100%]' src={boxmain} /></div>
+                            <div className='mx-4 mt-4 '>
                                 <h1 className='font-bold  '>{props.box1h1}</h1>
                                 <h2 className='font-bold lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
                                 <p className='lg:text-xl md:text-lg mt-2 mb-5'> {props.box1p}</p>
@@ -282,8 +282,8 @@ function User(props) {
 
                         </div>
 
-                        <div className='lg:w-[30%] md:w-[32%] md:mt-0 mt-10 w-[100%] bg-[#fff]'> <div className='h-[200px]'><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%]' src={box2} /></div>
-                            <div className='mx-4 md:mt-4 sm:mt-40'>
+                        <div className='lg:w-[30%] md:w-[32%] md:mt-0 mt-10 w-[100%] bg-[#fff]'> <div className='md:h-[200px] sm:h-500px '><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%] sm-[350px] md:h-full' src={box2} /></div>
+                            <div className='mx-4 mt-4 '>
                                 <h1 className='font-bold  '>{props.box2h1}</h1>
                                 <h2 className='font-bold lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box2h2}</h2>
                                 <p className='lg:text-xl md:text-lg mt-2 mb-5'> {props.box2p}</p>
@@ -292,8 +292,8 @@ function User(props) {
 
                         </div>
 
-                        <div className='lg:w-[30%] md:w-[32%] md:mt-0 mt-10 w-[100%] bg-[#fff]'> <div className='h-[200px]' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%]' src={box3} /></div>
-                            <div className='mx-4 md:mt-4 sm:mt-40'>
+                        <div className='lg:w-[30%] md:w-[32%] md:mt-0 mt-10 w-[100%] bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%] sm-[350px] md:h-full' src={box3} /></div>
+                            <div className='mx-4 mt-4 '>
                                 <h1 className='font-bold  '>{props.box3h1}</h1>
                                 <h2 className='font-bold lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box3h2}</h2>
                                 <p className='lg:text-xl md:text-lg mt-2 mb-5'> {props.box3p}</p>
@@ -312,8 +312,8 @@ function User(props) {
 
                 <div className='bg-[#f7f7f7]' >
                     <div className='md:flex md:flex-row flex flex-col justify-between w-[100%] px-10 pt-10  text-left '>
-                        <div className='lg:w-[30%] md:w-[32%] w-[100%]  bg-[#fff]'> <div className='h-[200px]' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%]' src={box4} /></div>
-                            <div className='mx-4 md:mt-4 sm:mt-40'>
+                        <div className='lg:w-[30%] md:w-[32%] w-[100%]  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%] sm-[350px] md:h-full' src={box4} /></div>
+                            <div className='mx-4 mt-4 '>
                                 <h1 className='font-bold  '>{props.box4h1}</h1>
                                 <h2 className='font-bold lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box4h2}</h2>
                                 <p className='lg:text-xl md:text-lg mt-2 mb-5'> {props.box4p}</p>
@@ -322,8 +322,8 @@ function User(props) {
 
                         </div>
 
-                        <div className='lg:w-[30%] md:w-[32%] w-[100%] md:mt-0 mt-10  bg-[#fff]'> <div className='h-[200px]' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%]' src={box5} /></div>
-                            <div className='mx-4 md:mt-4 sm:mt-40'>
+                        <div className='lg:w-[30%] md:w-[32%] w-[100%] md:mt-0 mt-10  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%] sm-[350px] md:h-full' src={box5} /></div>
+                            <div className='mx-4 mt-4 '>
                                 <h1 className='font-bold  '>{props.box5h1}</h1>
                                 <h2 className='font-bold lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box5h2}</h2>
                                 <p className='lg:text-xl md:text-lg mt-2 mb-5'> {props.box5p}</p>
@@ -332,8 +332,8 @@ function User(props) {
 
                         </div>
 
-                        <div className='lg:w-[30%] md:w-[32%] w-[100%]  md:mt-0 mt-10  bg-[#fff]'> <div className='h-[200px]' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%]' src={box6} /></div>
-                            <div className='mx-4 md:mt-4 sm:mt-40'>
+                        <div className='lg:w-[30%] md:w-[32%] w-[100%]  md:mt-0 mt-10  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%] sm-[350px] md:h-full' src={box6} /></div>
+                            <div className='mx-4 mt-4'>
                                 <h1 className='font-bold  '>{props.box6h1}</h1>
                                 <h2 className='font-bold lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box6h2}</h2>
                                 <p className='lg:text-xl md:text-lg mt-2 mb-5'> {props.box6p}</p>
@@ -351,8 +351,8 @@ function User(props) {
 
                 <div className='bg-[#f7f7f7]' >
                     <div className='md:flex md:flex-row flex flex-col  px-10 pt-10 pb-20  text-left '>
-                        <div className='lg:w-[30%] md:w-[32%]  w-[100%] bg-[#fff]'> <div className='h-[200px]' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%]' src={box7} /></div>
-                            <div className='mx-4 md:mt-4 sm:mt-40'>
+                        <div className='lg:w-[30%] md:w-[32%]  w-[100%] bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%] sm-[350px] md:h-full' src={box7} /></div>
+                            <div className='mx-4 mt-4 '>
                                 <h1 className='font-bold  '>{props.box1h1}</h1>
                                 <h2 className='font-bold lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
                                 <p className='lg:text-xl md:text-lg mt-2 mb-5'> {props.box1p}</p>
@@ -361,8 +361,8 @@ function User(props) {
 
                         </div>
 
-                        <div className='lg:w-[30%] md:w-[32%] md:mt-0 mt-10  w-[100%] md:mx-16  bg-[#fff]'> <div className='h-[200px]'><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%]' src={box8} /></div>
-                            <div className='mx-4 md:mt-4 sm:mt-40'>
+                        <div className='lg:w-[30%] md:w-[32%] md:mt-0 mt-10  w-[100%] md:mx-16  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px '><img className='lg:w-[85%] md:w-[100%] m-auto hover:w-[100%] sm-[350px] md:h-full' src={box8} /></div>
+                            <div className='mx-4 mt-4 '>
                                 <h1 className='font-bold  '>{props.box1h1}</h1>
                                 <h2 className='font-bold lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
                                 <p className='lg:text-xl md:text-lg mt-2 mb-5'> {props.box1p}</p>

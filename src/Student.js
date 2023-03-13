@@ -93,7 +93,7 @@ function Student(props) {
 
             <div>
 
-                <div className="md:flex md:flex-row sm:flex sm:flex-col w-[100%]  px-2 sm:px-10  mx-auto">
+                <div className="md:flex md:flex-row sm:flex sm:flex-col w-[100%]  px-5 sm:px-10  mx-auto">
 
 
                     <div className="md:w-[60%] sm:w-[100%] my-10 flex-col flex justify-start">
@@ -119,7 +119,7 @@ function Student(props) {
                 </div>
             </div>
             <div>
-                <div className="w-[94%] mt-5 sm:block hidden flex mx-auto">
+                <div className="w-[94%] mt-5 sm:block hidden xl:flex mx-auto">
                     <div className='lg:w-[13%]  md:w-[20%] sm:w-[20%] border-r-2 border-gray-300'>
                         <img className='pr-5' src={logo} />
                     </div>
@@ -130,7 +130,7 @@ function Student(props) {
             </div>
             <div>
                 <div className=" text-sm mt-5 w-[100%]  flex mx-auto">
-                    <ul className='sm:flex md:mx-0 sm:mx-4 mx-2 text-left  w-[100%] xl:flex justify-around'>
+                    <ul className='sm:flex md:mx-0 sm:mx-4 mx-5 text-left  w-[100%] xl:flex justify-around'>
                         <li className=' cursor-pointer'>{props.lastli1}</li>
                         <li className='sm:hidden xl:block cursor-pointer'>{props.lastli2}</li>
                         <li className=' cursor-pointer'>{props.lastli3} </li>
@@ -143,7 +143,7 @@ function Student(props) {
                     </ul> 
                 </div>
                 <div className=" mt-2 flex mx-auto">
-                    <p className='text-sm px-2 sm:px-7 pb-14'>{props.coprit}</p>
+                    <p className='text-sm px-5 sm:px-7 pb-14'>{props.coprit}</p>
                 </div>
 
             </div>
