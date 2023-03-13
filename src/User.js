@@ -81,7 +81,7 @@ function User(props) {
                 <div className="lg:w-[50%] md:w-[100%] pb-5 sm:pb-0 sm:w-[100%] bg-[#032d42] xl:h-[550px] lg:h-[500px] md:h-[500px] sm:h-[400px] ">
                     <h1 className='xl:text-5xl lg:text-4xl md:text-5xl sm:text-4xl  g text-2xl  font-bold text-[#fff] flex items-start px-5 sm:px-12 pt-10  sm:pt-14 md:pt-28 pb-4 sm:pb-7'>PUT&nbsp; <span className='text-[#62d84e]'>YES</span> &nbsp;TO WORK</h1>
                     <p className='text-[#fff] leading-7 sm:leading-10 xl:text-[1.6rem] md:text-[1.6rem] lg:text-[1.2rem] w-[96%] sm:text-[1.2rem] text-left px-5  sm:px-10 ' >Save or grow? Satisfy shareholders or satisfy customers? When facing tough choices, choose the one platform that lets you say <span className='text-[#62d84e] font-bold'>YES</span> to both.</p>
-                    <button className='flex items-start sm:ml-0 ml-5 md:ml-10 sm:mx-10 font-semibold bg-[#62d84e] sm:mt-14 mt-4 py-3 sm:py-4 xl:px-11 md:px-11 px-5 sm:px-11 lg:px-8 rounded-md sm:text-xl text-sm '>
+                    <button className='flex items-start sm:ml-0 ml-5 sm:ml-10 sm:mx-10 font-semibold bg-[#62d84e] sm:mt-14 mt-4 py-3 sm:py-4 xl:px-11 md:px-11 px-5 sm:px-11 lg:px-8 rounded-md sm:text-xl text-sm '>
                         {props.make}
                     </button>
 
@@ -112,7 +112,7 @@ function User(props) {
                 <div className="lg:w-[50%]  md:w-[100%]     ">
                     <h1 className='xl:text-4xl md:text-4xl sm:text-3xl lg:text-3xl font-bold  flex items-start md:px-0  lg:px-10 xl:pt-5 lg:pt-1 pt-5 xl:pb-5 lg:pb-3'>
                         {props.h2}</h1>
-                    <p className=' md:text-xl sm:text-[18px] xl:w-[90%] lg:w-[100%] flex justify-start text-left lg:px-10 md:px-0 lg:pt-0 pt-5 ' >{props.para2}</p>
+                    <p className=' md:text-xl sm:text-[18px] xl:w-[90%] lg:w-[100%] flex justify-start text-left lg:px-10 md:px-0 leading-8 lg:pt-0 pt-5 ' >{props.para2}</p>
                     <button className='flex items-start md:mx-0 lg:mx-10 font-semibold border-[2px] border-[#62d84e] lg:mt-5  mt-10  xl:mt-10 sm:py-4 sm:px-10 px-5 py-3 lg:px-7 xl:px-10 rounded-md relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100   '>
                         {props.explore}
                     </button>
@@ -135,7 +135,7 @@ function User(props) {
                         <h2 className='flex items-start text-lg  font-bold'>{props.it}</h2>
                         <h1 className='sm:text-4xl text-xl  font-bold  flex items-start  sm:pt-5 pt-2 pb-5'>
                             {props.h3}</h1>
-                        <p className=' sm:text-xl text-lg  w-[90%] flex justify-start text-left  ' >{props.para3}</p>
+                        <p className=' sm:text-xl text-lg leading-8  w-[90%] flex justify-start text-left  ' >{props.para3}</p>
                         <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 rounded-md relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100   '>
                             {props.btn3}
                         </button>
@@ -156,7 +156,7 @@ function User(props) {
                     <h2 className='flex items-start text-lg  font-bold'>{props.Employee}</h2>
                     <h1 className='sm:text-4xl text-xl font-bold  flex items-start  pt-5 pb-5'>
                         {props.part3h3}</h1>
-                    <p className=' sm:text-xl text-lg w-[90%] flex justify-start text-left  ' >{props.part3para3}</p>
+                    <p className=' sm:text-xl leading-8 text-lg w-[90%] flex justify-start text-left  ' >{props.part3para3}</p>
                     <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 rounded-md relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>
                         {props.btn3}
                     </button>
@@ -178,7 +178,7 @@ function User(props) {
                     <h2 className='flex items-start text-lg  font-bold'>{props.Customer}</h2>
                     <h1 className='sm:text-4xl text-xl font-bold  flex items-start  pt-5 pb-5'>
                         {props.part3h3}</h1>
-                    <p className=' sm:text-xl text-lg w-[90%] flex justify-start text-left  ' >{props.part3para3}</p>
+                    <p className=' sm:text-xl leading-8 text-lg w-[90%] flex justify-start text-left  ' >{props.part3para3}</p>
                     <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 rounded-md relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>
                         {props.btn3}
                     </button>
@@ -200,7 +200,7 @@ function User(props) {
                     <h2 className='flex items-start text-lg  font-bold'>{props.Creator} </h2>
                     <h1 className='sm:text-4xl text-xl font-bold  flex items-start  pt-5 pb-5'>
                         {props.part4h3}</h1>
-                    <p className=' sm:text-xl text-lg w-[90%] flex justify-start text-left  ' >{props.part4para3}</p>
+                    <p className=' sm:text-xl leading-8 text-lg w-[90%] flex justify-start text-left  ' >{props.part4para3}</p>
                     <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 rounded-md  relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100 '>
                         {props.btn3}
                     </button>
@@ -222,11 +222,11 @@ function User(props) {
                 <div className="lg:w-[50%]  w-[100%]  ">
                     <img src={clientc} />
                 </div>
-                <div className="lg:w-[50%] w-[100%]    ">
+                <div className="lg:w-[50%]  w-[100%]    ">
                     <h1 className='xl:text-3xl sm:text-3xl lg:text-2xl font-bold  flex items-start md:px-0 pt-5  lg:px-10 xl:pt-5 lg:pt-1 xl:pb-5 lg:pb-3'>
                         {props.h4}</h1>
-                    <p className=' md:text-xl text-lg   sm:text-[18px] xl:w-[90%] lg:w-[95%] md:mx-0 lg:mx-10 flex justify-start text-left  pt-5 lg:pt-0
-                     ' >{props.para4}</p>
+                    <p className=' md:text-xl text-lg leading-8  sm:text-[18px] xl:w-[90%] lg:w-[95%] md:mx-0 lg:mx-10 flex justify-start text-left  pt-5 lg:pt-0
+                     '  >{props.para4}</p>
                     <button className='flex items-start lg:mx-10 font-semibold border-[2px] border-[#62d84e] lg:mt-5 xl:mt-10 mt-5 sm:mt-10 py-4 px-10   lg:px-7 xl:px-10 rounded-md  relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100 '>
                         {props.explore}
                     </button>

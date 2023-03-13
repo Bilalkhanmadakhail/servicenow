@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <div style={{width:' 100%'}} className="App">
+    <div style={{width:' 100%'}} className="App max-w-[1400px] m-auto">
 
       <NavBAR product='Products' Solution='Solutions' Platform='Platform'
         Customer='Customers' Events='Events' About='About' button='Get Started' img={logo} />
