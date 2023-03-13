@@ -130,7 +130,7 @@ function Student(props) {
             </div>
             <div>
                 <div className=" text-sm mt-5 w-[100%]  flex mx-auto">
-                    <ul className='sm:flex md:mx-0 sm:mx-4 mx-5 text-left  w-[100%] xl:flex justify-around'>
+                    <ul className='sm:flex md:mx-3 sm:mx-4 mx-5 text-left  w-[100%] xl:flex justify-around'>
                         <li className=' cursor-pointer'>{props.lastli1}</li>
                         <li className='sm:hidden xl:block cursor-pointer'>{props.lastli2}</li>
                         <li className=' cursor-pointer'>{props.lastli3} </li>
@@ -143,7 +143,7 @@ function Student(props) {
                     </ul> 
                 </div>
                 <div className=" mt-2 flex mx-auto">
-                    <p className='text-sm px-5 sm:px-7 pb-14'>{props.coprit}</p>
+                    <p className='text-sm px-5 sm:px-7 md:px-10 pb-14'>{props.coprit}</p>
                 </div>
 
             </div>
