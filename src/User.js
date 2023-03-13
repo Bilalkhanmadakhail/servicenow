@@ -121,7 +121,7 @@ function User(props) {
 
             </div>
 
-            <div className='sm:flex sm:flex-row  flex flex-col justify-start text-left sm:justify-between mt-32 text-[#999] md:text-xl sm:text-[16px]  font-semibold xl:w-[55%] lg:w-[70%] sm:w-[90%] w-[95%] mx-5 sm:mx-0 m-auto'>
+            <div className='sm:flex w-[100%] sm:flex-row  flex flex-col justify-center text-left sm:justify-between  mt-32 text-[#999] md:text-xl sm:text-[16px]  font-semibold xl:w-[55%] lg:w-[70%] sm:w-[90%]  mx-5 sm:mx-0 xl:mx-auto'>
                 <div className='hover:border-b-2 hover:border-black hover:text-black cursor-pointer sm:pt-0 pt-2' onClick={() => handleDivClick(1)}><p>{props.workflow1}</p></div>
                 <div className='hover:border-b-2 hover:border-black hover:text-black cursor-pointer sm:pt-0 pt-2' onClick={() => handleDivClick(2)}><p>{props.workflow2}</p></div>
                 <div className='hover:border-b-2 hover:border-black hover:text-black cursor-pointer sm:pt-0 pt-2' onClick={() => handleDivClick(3)}><p>{props.workflow3}</p></div>
@@ -277,7 +277,7 @@ function User(props) {
                                 <h1 className='font-bold  '>{props.box1h1}</h1>
                                 <h2 className='font-bold lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
                                 <p className='lg:text-xl md:text-lg mt-2 mb-5'> {props.box1p}</p>
-                                <div className='flex'>  <h3 className='font-semibold text-xl'>{props.box1h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
+                                <div className='flex xl:mt-12'>  <h3 className='font-semibold text-xl'>{props.box1h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
                             </div>
 
                         </div>
