@@ -227,7 +227,7 @@ function User(props) {
                         {props.h4}</h1>
                     <p className=' md:text-xl text-lg   sm:text-[18px] xl:w-[90%] lg:w-[95%] md:mx-0 lg:mx-10 flex justify-start text-left  pt-5 lg:pt-0
                      ' >{props.para4}</p>
-                    <button className='flex items-start lg:mx-10 font-semibold border-[2px] border-[#62d84e] lg:mt-5 xl:mt-10 mt-5 sm:mt-10 py-4 sm:px-10   lg:px-7 xl:px-10 rounded-md  relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100 '>
+                    <button className='flex items-start lg:mx-10 font-semibold border-[2px] border-[#62d84e] lg:mt-5 xl:mt-10 mt-5 sm:mt-10 py-4 px-10   lg:px-7 xl:px-10 rounded-md  relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100 '>
                         {props.explore}
                     </button>
 
