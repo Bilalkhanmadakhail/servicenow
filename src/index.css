@@ -4,3 +4,22 @@
 
 
 
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: local("fonts"),
+     url("./fonts/Gilroy-Bold.ttf") format("truetype");
+    font-weight: bold;
+    }
+    
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: local("fonts"),
+     url("./fonts/Gilroy-Regular.ttf") format("truetype");
+    font-weight: bold;
+    }
+    @font-face {
+        font-family: "Gilroy-Medium";
+        src: local("fonts"),
+         url("./fonts/Gilroy-Medium.ttf") format("truetype");
+        font-weight: bold;
+        }

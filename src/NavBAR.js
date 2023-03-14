@@ -24,12 +24,14 @@ function NavBar(props) {
         setIsDivVisible(false);
     };
     return (
-        <div>
-            <div className='flex justify-between w-[100%] xl:sticky xl:top-0 bg-white shadow-3xl ' >
-                <div className='sm:w-[260px] sm:mx-0  mx-4 w-[50%] pt-6 pb-5 md:px-8'>
+        <div className=' bg-white xl:shadow-none  shadow-3xl max-w-[1400px] mx-auto '>
+         
+            <div className='flex bg-white max-w-[1400px]  w-[100%]  justify-between   xl:fixed sticky z-50 xl:top-0   ' >
+                
+                <div className='sm:w-[260px] sm:mx-0  mx-4 w-[50%] pt-5 pb-5 sm:px-8'>
                     <img className='md:w-[100%] sm:mb-0 mb-1 sm:w-[80%]' src={logo} />
                 </div>
-                <ul className="w-[58%] pr-5 hidden lg:flex justify-start py-7 font-sans  text-[#293e40] text-lg">
+                <ul className="w-[58%]  pr-5 hidden font-face-rm lg:flex justify-start py-7    text-[#293e40] text-lg">
                     <li className='pr-5  cursor-pointer ' onClick={() => handleClick(1)} > <a>{props.Solution}</a></li>
                     <li className='pr-5 cursor-pointer' onClick={() => handleClick(2)}> <a>{props.product}</a></li>
                     <li className='pr-5 cursor-pointer' onClick={() => handleClick(3)}> <a>{props.Platform}</a></li>
@@ -40,7 +42,7 @@ function NavBar(props) {
 
                 </ul>
                 <div className='flex py-5 justify-around md:w-[22%] w-[35%] mr-5'>
-                    <button className='md:px-7 sm:ml-0 ml-5 px-4 sm:text-lg text-sm py-2 rounded-sm font-semibold text-white bg-[#293e40]'> {props.button}</button>
+                    <button className='md:px-7 font-face-mm sm:ml-0 ml-5 px-3 lg:text-[16px]  sm:text-lg text-sm h-[45px] rounded-sm font-bold text-white bg-[#293e40]'> {props.button}</button>
 
                     <img className=' mt-2 w-[28px] h-[28px] hidden xl:block' src={search} />
                     <img className='mt-2 w-[28px] h-[28px] hidden xl:block' src={globe} />
@@ -599,8 +601,8 @@ function NavBar(props) {
                 </div>
                 }
 
-
-        </div>
+</div>
+    
 
     )
 }
