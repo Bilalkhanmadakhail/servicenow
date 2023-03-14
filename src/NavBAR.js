@@ -24,7 +24,7 @@ function NavBar(props) {
         setIsDivVisible(false);
     };
     return (
-        <div className=' bg-white xl:shadow-none  shadow-3xl max-w-[1400px] mx-auto '>
+        <div className=' bg-white xl:shadow-none z-50 shadow-3xl max-w-[1400px] mx-auto '>
          
             <div className='flex bg-white max-w-[1400px]  w-[100%]  justify-between   xl:fixed sticky z-50 xl:top-0   ' >
                 
@@ -55,7 +55,7 @@ function NavBar(props) {
      
             
                 {selectDiv == 1 && isDivVisible  &&
-                    <div className=' flex h-[700px]   '>
+                    <div className=' flex h-[700px] mt-[87px]  '>
                         <div className='w-[20%]'>
                             <ul className='w-full ml-10 mt-10 flex flex-col items-start'>
                                 <li className='font-thin pl-2 '>SOLUTIONS AREAS</li>
@@ -109,7 +109,7 @@ function NavBar(props) {
                 }
        
          
-                {selectDiv == 2 && isDivVisible  && <div className='flex h-[700px]'>
+                {selectDiv == 2 && isDivVisible  && <div className='flex  mt-[87px]  h-[700px]'>
                     <div className='w-[20%]'>
                         <ul className='w-full ml-10 mt-10 flex flex-col items-start'>
                             <li className='font-semibold text-[#293e40] pl-2 '>WORKFLOWS</li>
@@ -224,7 +224,7 @@ function NavBar(props) {
                 </div>
                 }
        
-                {selectDiv == 3 && isDivVisible  && <div className='flex h-[700px]'>
+                {selectDiv == 3 && isDivVisible  && <div className='flex  mt-[87px]  h-[700px]'>
                     <div className='w-[20%]'>
                         <ul className='w-full ml-10 text-[#293e40] mt-10 flex flex-col items-start'>
                             <li className='font-thin pl-2 '>HOW IT WORKS</li>
@@ -318,7 +318,7 @@ function NavBar(props) {
                 </div>
                 }
       
-                {selectDiv == 4 && isDivVisible  && <div className='flex h-[700px]'>
+                {selectDiv == 4 && isDivVisible  && <div className='flex  mt-[87px]  h-[700px]'>
                     <div className='w-[20%]'>
                         <ul className='w-full ml-10 text-[#293e40] mt-10 flex flex-col items-start'>
                             <li className='font-thin pl-2 '>CUSTOMER SUCCESS</li>
@@ -407,7 +407,7 @@ function NavBar(props) {
                 </div>
                 }
       
-                {selectDiv == 5 && isDivVisible  && <div className='flex h-[700px]'>
+                {selectDiv == 5 && isDivVisible  && <div className='flex  mt-[87px]  h-[700px]'>
                     <div className='w-[20%]'>
                         <ul className='w-full ml-10 text-[#293e40] mt-10 flex flex-col items-start'>
                             <li className='font-thin pl-2 '>GLOBAL EVENTS</li>
@@ -492,7 +492,7 @@ function NavBar(props) {
                 }
             
     
-                {selectDiv == 6 && isDivVisible  && <div className='flex h-[700px]'>
+                {selectDiv == 6 && isDivVisible  && <div className='flex  mt-[87px]  h-[700px]'>
                     <div className='w-[20%]'>
                         <ul className='w-full ml-10 text-[#293e40] mt-10 flex flex-col items-start'>
                             <li className='font-thin pl-2 '>COMPANY
