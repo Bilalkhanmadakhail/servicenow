@@ -4,7 +4,8 @@ import customer from './assets/customer.avif'
 import events from './assets/events.avif'
 import about from './assets/about.avif'
 import close from './assets/close.png'
-
+import hamburger from './assets/menu.png'
+import far from './assets/far.png'
 import search from './assets/search-icon.svg'
 import account from './assets/account.png'
 import globe from './assets/globe (1).png'
@@ -23,15 +24,20 @@ function NavBar(props) {
     const handleHideDiv = () => {
         setIsDivVisible(false);
     };
+    const [showDiv, setShowDiv] = useState(false);
+
+    const handleeClick = () => {
+        setShowDiv(!showDiv);
+    }
     return (
         <div className=' bg-white xl:shadow-none z-50 shadow-3xl max-w-[1400px] mx-auto '>
          
             <div className='flex bg-white max-w-[1400px]  w-[100%]  justify-between   xl:fixed sticky z-50 xl:top-0   ' >
                 
-                <div className='sm:w-[260px] sm:mx-0  mx-4 w-[50%] pt-5 pb-5 sm:px-8'>
+                <div className='sm:w-[260px] sm:mx-0  mx-4 w-[50%] pt-4 pb-4 sm:px-8'>
                     <img className='md:w-[100%] sm:mb-0 mb-1 sm:w-[80%]' src={logo} />
                 </div>
-                <ul className="w-[58%]  pr-5 hidden font-face-rm lg:flex justify-start py-7    text-[#293e40] text-lg">
+                <ul className="w-[60%]  pr-5 hidden font-face-rm lg:flex justify-start py-6    text-[#293e40] text-lg">
                     <li className='pr-5  cursor-pointer ' onClick={() => handleClick(1)} > <a>{props.Solution}</a></li>
                     <li className='pr-5 cursor-pointer' onClick={() => handleClick(2)}> <a>{props.product}</a></li>
                     <li className='pr-5 cursor-pointer' onClick={() => handleClick(3)}> <a>{props.Platform}</a></li>
@@ -41,8 +47,12 @@ function NavBar(props) {
 
 
                 </ul>
-                <div className='flex py-5 justify-around md:w-[22%] w-[35%] mr-5'>
-                    <button className='md:px-7 font-face-mm sm:ml-0 ml-5 px-3 lg:text-[16px]  sm:text-lg text-sm h-[45px] rounded-sm font-bold text-white bg-[#293e40]'> {props.button}</button>
+                <div className='flex py-4 justify-around md:w-[20%] w-[35%] mr-5'>
+                    <button className='md:px-5 xl:h-10 font-face-mm sm:ml-0 ml-5 px-3 lg:text-[14px]  sm:text-lg text-sm h-[45px] hidden lg:block  rounded-sm font-bold text-white bg-[#293e40]'> {props.button}</button>
+                    <div className='w-[100%] lg:hidden flex justify-end px-6'>
+                <img src={hamburger} onClick={handleeClick} />
+
+            </div>
 
                     <img className=' mt-2 w-[28px] h-[28px] hidden xl:block' src={search} />
                     <img className='mt-2 w-[28px] h-[28px] hidden xl:block' src={globe} />
@@ -52,7 +62,22 @@ function NavBar(props) {
                 </div>
 
             </div>
-     
+            {showDiv && <div className='lg:hidden md:block' >
+                {/* <div  className='w-[100%]  px-5'>
+                <img src={close}    />
+
+            </div> */}
+
+                <ul className=' w-[100%] pl-5 pr-10'>
+                    <li className='flex justify-between pt-5 '> <p className='text-xl font-semibold'>Solution</p> <img className='w-7 h-7' src={far} /></li>
+                    <li className='flex justify-between pt-5 '> <p className='text-xl font-semibold'>Product</p> <img className='w-7 h-7' src={far} /></li>
+                    <li className='flex justify-between pt-5 '> <p className='text-xl font-semibold'>Platform</p> <img className='w-7 h-7' src={far} /></li>
+                    <li className='flex justify-between pt-5 '> <p className='text-xl font-semibold'>Customer</p> <img className='w-7 h-7' src={far} /></li>
+
+                    <li className='flex justify-between pt-5 '> <p className='text-xl font-semibold'>Events</p> <img className='w-7 h-7' src={far} /></li>
+                    <li className='flex justify-between py-5 '> <p className='text-xl font-semibold'>About</p> <img className='w-7 h-7' src={far} /></li>
+                </ul>
+            </div>}
             
                 {selectDiv == 1 && isDivVisible  &&
                     <div className=' flex h-[700px] mt-[87px]  '>
@@ -94,7 +119,7 @@ function NavBar(props) {
                         </div>
                         <div className='w-[50%] bg-[#f4f2f2]'>
                             <div className='mt-20 ml-10 flex flex-col items-start'>
-                                <div className='flex -mt-10 justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
+                                <div className='flex -mt-10 cursor-pointer justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
                                 <h1 className='text-2xl font-semibold text-[#293e40]'>Customer experience</h1>
                                 <p className='flex text-left  mt-4 text-lg text-[#293e40]'>
                                     Increase customer loyalty and improve your bottom line. Create effortless experiences that bring customers back again and again.
@@ -202,7 +227,7 @@ function NavBar(props) {
                     </div>
                     <div className='w-[50%] bg-[#f4f2f2]'>
                         <div className='mt-20 ml-10 flex flex-col items-start'>
-                            <div className='flex -mt-10 justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
+                            <div className='flex -mt-10 cursor-pointer justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
                             <h1 className='text-2xl font-semibold text-[#293e40]'>IT Operations Management</h1>
                             <p className='flex text-left  mt-4 text-lg text-[#293e40]'>
                                 Identify, prioritize, and respond to threats faster. Connect existing security tools with a security orchestration, automation, and response engine to quickly resolve incidents.
@@ -293,7 +318,7 @@ function NavBar(props) {
                     </div>
                     <div className='w-[50%] bg-[#f4f2f2]'>
                         <div className='mt-20 ml-10 flex flex-col items-start'>
-                            <div className='flex -mt-10 justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
+                            <div className='flex -mt-10 cursor-pointer justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
                             <h1 className='text-2xl font-semibold text-[#293e40]'>Now Platform</h1>
                             <p className='flex text-left  mt-4 text-lg text-[#293e40]'>
                                 The platform for digital business delivers unmatched opportunity. Built for a fast-changing world, the Now Platform® connects people and data for greater productivity and innovation.
@@ -379,7 +404,7 @@ function NavBar(props) {
                     </div>
                     <div className='w-[50%] bg-[#f4f2f2]'>
                         <div className='mt-20 ml-10 flex flex-col items-start'>
-                            <div className='flex -mt-10 justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
+                            <div className='flex -mt-10 cursor-pointer justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
                             <h1 className='text-2xl font-semibold text-[#293e40]'>Customers</h1>
                             <p className='flex text-left  mt-4 text-lg text-[#293e40]'>
                                 Make the most out of your ServiceNow investment. Explore valuable resources to drive business outcomes and achieve success faster.
@@ -462,7 +487,7 @@ function NavBar(props) {
                     </div>
                     <div className='w-[50%] bg-[#f4f2f2]'>
                         <div className='mt-20 ml-10 flex flex-col items-start'>
-                            <div className='flex -mt-10 justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
+                            <div className='flex -mt-10 cursor-pointer justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
                             <h1 className='text-2xl font-semibold text-[#293e40]'>Events</h1>
                             <p className='flex text-left  mt-4 text-lg text-[#293e40]'>
                                 Connect with visionaries from around the world. Gain new ServiceNow skills and fresh insights into the power of digital transformation.
@@ -571,7 +596,7 @@ function NavBar(props) {
                     </div>
                     <div className='w-[50%] bg-[#f4f2f2]'>
                         <div className='mt-20 ml-10 flex flex-col items-start'>
-                            <div className='flex -mt-10 justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
+                            <div className='flex -mt-10 cursor-pointer justify-end w-[80%] m-auto'> <img className='w-8 h-8' src={close} alt="close" onClick={handleHideDiv} /></div>
                             <h1 className='text-2xl font-semibold text-[#293e40]'>About ServiceNow</h1>
                             <p className='flex text-left  mt-4 text-lg text-[#293e40]'>
                                 The world works with ServiceNow. We believe in the power of technology to reduce complexity and make the world a better place for all of us.

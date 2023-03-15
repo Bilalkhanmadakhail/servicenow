@@ -15,11 +15,11 @@ function Student(props) {
     console.log(props)
     return (
         <div className="text-[#293e40] max-w-[1400px] mx-auto font-[DM Sans] ">
-            <div className='w-[94%] mx-auto border-b-2 border-gray-300 py-14'>
+            <div className='w-[94%] mx-auto border-b-[1px] border-gray-300 py-12'>
 
                 <div className=' sm:flex  sm:flex-row flex flex-col  lg:justify-start sm:justify-between'>
                     <p className='lg:w-[68%] md:w[60%] flex justify-start font-semibold'> {props.req}</p>
-                <div className='lg:w-[32%] sm:my-0 my-5 md:w-[40%] flex justify-between py-4 px-5 bg-[#293e40]'>
+                <div className='lg:w-[32%] sm:my-0 my-3 md:w-[40%] flex justify-between py-3 px-5 bg-[#293e40]'>
                  <div className='flex '>  <img className='w-7' src={globe}/>
                     <p className='text-white pl-2  font-face-rm '>{props.us}</p></div> 
                     <img className=' w-7' src={expand}/>
@@ -35,7 +35,7 @@ function Student(props) {
                 </div>
             </div>
 
-            <div className="flex md:px-10 xl:px-0 sm:px-10 px-5 lg:w-[94%] md:w-[100%] xl:justify-start md:justify-between mx-auto border-b-2 border-gray-200  ">
+            <div className="flex md:px-10 xl:px-0 mt-10 sm:px-10 px-5 lg:w-[94%] md:w-[100%] xl:justify-start md:justify-between mx-auto border-b-2 border-gray-200  ">
                 <div className="lg:w-[25%] md:w-[20%] sm:w-[33%]  flex-col justify-start text-left">
                     <ul>
 
@@ -99,7 +99,7 @@ function Student(props) {
                     <div className="md:w-[60%] sm:w-[100%] my-10 flex-col flex justify-start">
                         <p className="flex font-face-gm justify-start mb-5 text-lg font-bold">{props.updates}</p>
                         <div className="flex">
-                            <input className="border-gray-600 border-[1px] w-[50%]  px-3 lg:py-3 md:py-2 sm:py-3 " type="email" placeholder="Email" />
+                            <input className="border-gray-600 font-face-rm border-[1px] w-[50%]  px-3 lg:py-3 md:py-2 sm:py-3 " type="email"  placeholder="Email" />
                             <button className="border-gray-600 cursor-pointer border-[2px] ml-5 px-10 font-semibold md:py-2 lg:py-3">{props.submit}</button>
                         </div>
                     </div>
