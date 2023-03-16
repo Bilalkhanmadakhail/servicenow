@@ -59,26 +59,26 @@ function User(props) {
                 <div className="lg:w-[50%] md:w-[100%] pb-5 sm:pb-0 sm:w-[100%] bg-[#032d42] xl:h-[500px] lg:h-[500px] md:h-[500px] sm:h-[400px] ">
                     <h1 className='xl:text-5xl font-face-gm lg:text-4xl md:text-5xl sm:text-4xl   text-2xl  font-bold text-[#fff] flex items-start xl:px-10 px-5 sm:px-12 pt-10 lg:pt-28  sm:pt-14 md:pt-28 pb-4 sm:pb-7'>PUT&nbsp; <span className='text-[#62d84e]'>YES</span> &nbsp;TO WORK</h1>
                     <p className='text-[#fff] leading-7 font-face-rm sm:leading-10 xl:text-[1.5rem] md:text-[1.6rem] lg:text-[1.2rem] w-[96%] sm:text-[1.2rem] text-left px-5  sm:px-10 ' >Save or grow? Satisfy shareholders or satisfy customers? When facing tough choices, choose the one platform that lets you say <span className='text-[#62d84e] font-bold'>YES</span> to both.</p>
-                    <button className='flex items-start font-face-mm  ml-5 sm:ml-10 sm:mx-10  bg-[#62d84e] sm:mt-14 xl:mt-9 mt-4 py-3 sm:py-4 xl:px-9 md:px-11 px-5 sm:px-11 lg:px-8 rounded-md sm:text-[19px] text-sm '>
+                    <button className='flex items-start font-face-mm  ml-5 sm:ml-10 sm:mx-10  bg-[#62d84e] sm:mt-14 xl:mt-9 mt-4 py-3 sm:py-4 xl:px-9 md:px-11 px-5 sm:px-11 lg:px-8  sm:text-[16px] text-sm '>
                         {props.make}
                     </button>
-
-
-                </div>
+</div>
                 <div className="lg:w-[50%] md:w-[100%]    sm:w-[100%] xl:h-[500px] lg:h-[500px] sm:h-[500px]  ">
                     <img className=' w-full  h-full' src={client} />
                 </div>
             </div>
             </div>
 
+        
+
 <div className='max-w-[1400px] mx-auto '>
             <div className='md:flex md:flex-row  flex flex-col lg:justify-around sm:justify-between md:justify-between xl:justify-around  lg:px-20 px-5 sm:px-5 md:px-10 py-14 border-b-[1px] border-gray-300 '>
-                <div className='flex md:mt-0 mt-6  cursor-pointer'> <img className='md:w-12 md:h-12  w-10 h-10  ' src={pc} /> <h1 className='font-face-gm sm:text-[18px] md:mt-2 sm:mt-1 lg:ml-5 sm:ml-2 ml-7'>
+                <div className='flex md:mt-0 mt-6  cursor-pointer'> <img className='md:w-12 md:h-12  w-10 h-10  ' src={pc} /> <h1 className='font-face-mm sm:text-[18px] md:mt-2 sm:mt-1 lg:ml-5 sm:ml-2 ml-7'>
                     {props.fordemo}</h1></div>
-                <div className='flex md:mt-0 mt-6 xl:ml-24 cursor-pointer'> <img className='md:w-12 md:h-12 w-10 h-10  ' src={bell} /> <h1 className='font-face-gm sm:text-[18px] pl-5 md:mt-2  sm:mt-1 lg:ml-5 sm:pt-0 sm:ml-2 ml-2'>{props.forcontact}
+                <div className='flex md:mt-0 mt-6 xl:ml-24 cursor-pointer'> <img className='md:w-12 md:h-12 w-10 h-10  ' src={bell} /> <h1 className='font-face-mm sm:text-[18px] pl-5 md:mt-2  sm:mt-1 lg:ml-5 sm:pt-0 sm:ml-2 ml-2'>{props.forcontact}
 
                 </h1></div>
-                <div className='flex md:mt-0 mt-6 cursor-pointer'> <img className='md:w-12 md:h-12 w-10 h-10  ' src={searchicon} /> <h1 className='font-face-gm md:text-xl sm:text-[18px] md:mt-2 sm:mt-1 lg:ml-5 sm:ml-2 ml-7'>
+                <div className='flex md:mt-0 mt-6 cursor-pointer'> <img className='md:w-12 md:h-12 w-10 h-10  ' src={searchicon} /> <h1 className='font-face-mm md:text-xl sm:text-[18px] md:mt-2 sm:mt-1 lg:ml-5 sm:ml-2 ml-7'>
 
                     {props.lookingfor}</h1></div>
             </div>
@@ -93,7 +93,7 @@ function User(props) {
                     <h1 className='xl:text-4xl font-face-gm md:text-4xl sm:text-3xl lg:text-3xl font-bold  flex items-start md:px-0  lg:px-10 xl:pt-5 lg:pt-1 pt-5 xl:pb-5 lg:pb-3'>
                         {props.h2}</h1>
                     <p style={{lineHeight:"36px"}} className=' md:text-xl text-[#2C4641]  font-face-rm sm:text-[18px] xl:w-[100%] lg:w-[100%] flex justify-start text-left lg:pl-10 md:px-0 leading-[70px]   lg:pt-0 pt-5 ' >{props.para2}</p>
-                    <button className='flex items-start font-face-mm lg:text-[18px]  md:mx-0 lg:mx-10  border-[2px] border-[#62d84e] lg:mt-5  mt-10  xl:mt-10 sm:py-4 sm:px-10 px-5 py-3 lg:px-7 xl:px-9 rounded-md relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100   '>
+                    <button className='flex items-start font-face-mm lg:text-[18px]  md:mx-0 lg:mx-10  border-[2px] border-[#62d84e] lg:mt-5  mt-10  xl:mt-10 sm:py-4 sm:px-10 px-5 py-3 lg:px-7 xl:px-9  relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100   '>
                         {props.explore}
                     </button>
 
@@ -117,7 +117,7 @@ function User(props) {
                         <h1 className='sm:text-4xl text-xl  font-bold font-face-gm  flex items-start  sm:pt-5 pt-2 pb-5'>
                             {props.h3}</h1>
                         <p style={{lineHeight:"36px"}} className='text-[#2C4641] sm:text-xl text-lg font-face-rm leading-8  w-[90%] flex justify-start text-left  ' >{props.para3}</p>
-                        <button className='flex font-face-mm items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 rounded-md relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 lg:text-[18px] before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100   '>
+                        <button className='flex font-face-mm items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-3 px-10  relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 lg:text-[18px] before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100   '>
                             {props.btn3}
                         </button>
 
@@ -138,7 +138,7 @@ function User(props) {
                     <h1 className='sm:text-4xl text-xl font-bold font-face-gm  flex items-start  pt-5 pb-5'>
                         {props.part3h3}</h1>
                     <p style={{lineHeight:"36px"}} className='text-[#2C4641] sm:text-xl leading-8 font-face-rm text-lg w-[90%] flex justify-start text-left  ' >{props.part3para3}</p>
-                    <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 font-face-mm rounded-md relative   bg-transparent text-black-800 lg:text-[18px] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>
+                    <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-3 px-10 font-face-mm  relative   bg-transparent text-black-800 lg:text-[18px] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>
                         {props.btn3}
                     </button>
 
@@ -160,7 +160,7 @@ function User(props) {
                     <h1 className='sm:text-4xl text-xl font-bold font-face-gm  flex items-start  pt-5 pb-5'>
                         {props.part3h3}</h1>
                     <p style={{lineHeight:"36px"}} className='text-[#2C4641] sm:text-xl leading-8 text-lg w-[90%] font-face-rm flex justify-start text-left  ' >{props.part3para3}</p>
-                    <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 font-face-mm rounded-md relative   bg-transparent text-black-800 lg:text-[18px] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>
+                    <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-3 px-10 font-face-mm  relative   bg-transparent text-black-800 lg:text-[18px] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>
                         {props.btn3}
                     </button>
 
@@ -182,7 +182,7 @@ function User(props) {
                     <h1 className='sm:text-4xl text-xl font-bold font-face-gm  flex items-start  pt-5 pb-5'>
                         {props.part4h3}</h1>
                     <p style={{lineHeight:"36px"}} className='text-[#2C4641] sm:text-xl leading-8 text-lg w-[90%] font-face-rm flex justify-start text-left  ' >{props.part4para3}</p>
-                    <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-4 px-10 rounded-md  relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 lg:text-[18px] font-face-mm before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100 '>
+                    <button className='flex items-start  font-semibold border-[2px] border-[#62d84e] mt-10 py-3 px-10   relative   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 lg:text-[18px] font-face-mm before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100 '>
                         {props.btn3}
                     </button>
 
@@ -208,7 +208,7 @@ function User(props) {
                         {props.h4}</h1>
                     <p style={{lineHeight:"36px"}} className='text-[#2C4641] md:text-xl text-lg font-face-rm leading-8  sm:text-[18px] xl:w-[100%] lg:w-[95%] md:mx-0 lg:mx-10 flex justify-start text-left  pt-5 lg:pt-0
                      '  >{props.para4}</p>
-                    <button className='flex items-start lg:mx-10 font-semibold border-[2px] border-[#62d84e] lg:mt-5 xl:mt-10 mt-5 sm:mt-10 py-4 px-10   lg:px-7 xl:px-9 rounded-md  relative font-face-mm lg:text-[18px]  bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100 '>
+                    <button className='flex items-start lg:mx-10 font-semibold border-[2px] border-[#62d84e] lg:mt-5 xl:mt-10 mt-5 sm:mt-10 py-4 px-10   lg:px-7 xl:px-9   relative font-face-mm lg:text-[18px]  bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100 '>
                         {props.explore}
                     </button>
 
@@ -238,9 +238,9 @@ function User(props) {
             <div className='lg:flex max-w-[1400px] mx-auto lg:flex-row  md:flex md:flex-col-reverse mt-10 '>
 
                 <div className='lg:w-[50%] md:w-[100%] w-[100%] md:py-16 pt-10 sm:pb-2 lg:py-32 text-left px-10'>
-                    <h1 className='xl:text-[40px] leading-8 font-face-gm md:text-4xl sm:text-3xl text-2xl lg:text-4xl text-[#fff] font-bold'>{props.blueh1}</h1>
-                    <p style={{lineHeight:"36px"}} className='xl:text-[21px]  text-lg sm:text-xl font-face-rm w-[95%] mt-5 text-[#fff]'>{props.bluepara}</p>
-                    <button className='text-[#fff] z-10 text-lg font-semibold border-[2px] border-[#62d84e] mt-10 py-3 font-face-mm px-10 rounded-md relative   bg-transform text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>{props.btnforblue}</button><span className='pl-8 text-[#fff] font-face-mm font-semibold text-lg'>{props.stories}</span>
+                    <h1 style={{lineHeight:"46px"}} className='xl:text-[36px] leading-8 font-face-gm md:text-4xl sm:text-3xl text-2xl lg:text-4xl text-[#fff] font-bold'>{props.blueh1}</h1>
+                    <p style={{lineHeight:"36px"}} className='xl:text-[20px]  text-lg sm:text-xl font-face-rm w-[95%] mt-5 text-[#fff]'>{props.bluepara}</p>
+                    <button className='text-[#fff] z-10 text-[16px] font-semibold border-[2px] border-[#62d84e] mt-10 py-3 font-face-mm px-10  relative   bg-transform text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>{props.btnforblue}</button><span className='pl-8 text-[#fff] font-face-mm font-semibold text-lg'>{props.stories}</span>
 
 
                 </div>
@@ -251,36 +251,36 @@ function User(props) {
             </div>
             <div className='bg-[#f7f7f7]'>
             <div className=' max-w-[1400px] mx-auto '>
-                <div className='sm:py-20 py-10 sm:flex sm:flex-row flex flex-col text-left mx-5 justify-between sm:mx-10'> <h1 className='font-face-gm xl:text-4xl md:text-2xl lg:mt-4 text-lg sm:text-2xl lg:text-3xl font-bold'>{props.afterblueh1}</h1>  <button className=' sm:text-lg text-sm font-semibold border-[2px] border-[#62d84e]  sm:mt-0 mt-5  xl:mt-10 lg:mt-5  py-3 px-3 sm:px-10 rounded-md  relative z-10   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>{props.btnlast}</button> </div>
+                <div className='sm:py-20 py-10 sm:flex sm:flex-row flex flex-col text-left mx-5 justify-between sm:mx-10'> <h1 className='font-face-gm xl:text-4xl md:text-2xl lg:mt-4 text-lg sm:text-2xl lg:text-3xl font-bold'>{props.afterblueh1}</h1>  <button className=' sm:text-lg text-sm font-semibold border-[2px] border-[#62d84e]  sm:mt-0 mt-5  xl:mt-10 lg:mt-5  py-3 px-3 sm:px-10   relative z-10   bg-transparent text-black-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#62d84e] before:transition-transform before:duration-300  hover:text-black before:hover:scale-x-100  '>{props.btnlast}</button> </div>
 
                 <div className='bg-[#f7f7f7]  flex flex-col flex-wrap' >
                     <div className='md:flex md:flex-row flex flex-col justify-between w-[100%] px-10  text-left '>
                         <div className='lg:w-[31%] overflow-hidden md:w-[32%] w-[100%]  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px'><img className='lg:w-[100%] md:w-[100%] m-auto sm-[350px] md:h-full transform transition duration-500 hover:scale-110' src={boxmain} /></div>
                             <div className='mx-4 mt-4 '>
-                                <h1 className= 'text-[12px]  tracking-widest  font-face-gm '>{props.box1h1}</h1>
-                                <h2 className='font-bold lg:text-2xl font-face-gm md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
-                                <p className='lg:text-xl text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box1p}</p>
-                                <div className='flex xl:mt-12'>  <h3 className='font-semibold font-face-gm text-xl'>{props.box1h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
+                                <h1 className= 'text-[14px]  tracking-widest  font-face-gm '>{props.box1h1}</h1>
+                                <h2 className='font-bold lg:text-[22px] font-face-gm md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
+                                <p className='lg:text-[16px] text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box1p}</p>
+                                <div className='flex xl:mt-12'>  <h3 className='font-semibold font-face-gm text-xl'>{props.box1h3}</h3><img className='w-8 h-8 ml-3 hover:transform hover:scale-x-150 transition-transform duration-300 ease-in-out ' src={arrow} /></div>
                             </div>
 
                         </div>
 
                         <div className='lg:w-[31%] md:w-[32%] overflow-hidden md:mt-0 mt-10 w-[100%] bg-[#fff]'> <div className='md:h-[200px] sm:h-500px '><img className='lg:w-[100%] md:w-[100%] m-auto transform transition duration-500 hover:scale-110 sm-[350px] md:h-full' src={box2} /></div>
                             <div className='mx-4 mt-4 '>
-                                <h1 className='font-bold text-[12px]  tracking-widest font-face-gm  '>{props.box1h1}</h1>
-                                <h2 className='font-bold font-face-gm lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box2h2}</h2>
-                                <p className='lg:text-xl text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box2p}</p>
-                                <div className='flex xl:mt-12'>  <h3 className='font-semibold font-face-gm text-xl'>{props.box2h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
+                                <h1 className='font-bold text-[14px]  tracking-widest font-face-gm  '>{props.box1h1}</h1>
+                                <h2 className='font-bold font-face-gm lg:text-[22px] md:text-xl w-[80%] mt-2'>{props.box2h2}</h2>
+                                <p className='lg:text-[16px] text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box2p}</p>
+                                <div className='flex xl:mt-12'>  <h3 className='font-semibold font-face-gm text-xl'>{props.box2h3}</h3><img className='w-8 h-8 ml-3 hover:transform hover:scale-x-150 transition-transform duration-300 ease-in-out ' src={arrow} /></div>
                             </div>
 
                         </div>
 
                         <div className='lg:w-[31%] md:w-[32%] overflow-hidden md:mt-0 mt-10 w-[100%] bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[100%] md:w-[100%] m-auto transform transition duration-500 hover:scale-110 sm-[350px] md:h-full' src={box3} /></div>
                             <div className='mx-4 mt-4 '>
-                                <h1 className='font-bold text-[12px]  tracking-widest  font-face-gm'>{props.box3h1}</h1>
-                                <h2 className='font-bold font-face-gm lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box3h2}</h2>
-                                <p className='lg:text-xl text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box3p}</p>
-                                <div className='flex xl:mt-12'>  <h3 className='font-semibold text-xl font-face-gm'>{props.box3h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
+                                <h1 className='font-bold text-[14px]  tracking-widest  font-face-gm'>{props.box3h1}</h1>
+                                <h2 className='font-bold font-face-gm lg:text-[22px] md:text-[20px] w-[80%] mt-2'>{props.box3h2}</h2>
+                                <p className='lg:text-[16px] text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box3p}</p>
+                                <div className='flex xl:mt-12'>  <h3 className='font-semibold text-xl font-face-gm'>{props.box3h3}</h3><img className='w-8 h-8 ml-3 hover:transform hover:scale-x-150 transition-transform duration-300 ease-in-out ' src={arrow} /></div>
                             </div>
 
                         </div>
@@ -297,30 +297,30 @@ function User(props) {
                     <div className='md:flex md:flex-row flex  flex-col justify-between w-[100%] px-10 pt-10  text-left '>
                         <div className='lg:w-[31%] md:w-[32%] overflow-hidden w-[100%]  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[100%] md:w-[100%] m-auto  sm-[350px] transform transition duration-500 hover:scale-110 md:h-full' src={box4} /></div>
                             <div className='mx-4 mt-4 '>
-                                <h1 className='font-bold text-[12px]  tracking-widest font-face-gm  '>{props.box4h1}</h1>
-                                <h2 className='font-bold font-face-gm lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box4h2}</h2>
-                                <p className='lg:text-xl text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box4p}</p>
-                                <div className='flex'>  <h3 className='font-semibold text-xl font-face-gm'>{props.box4h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
+                                <h1 className='font-bold text-[14px]  tracking-widest font-face-gm  '>{props.box4h1}</h1>
+                                <h2 className='font-bold font-face-gm lg:text-[22px] md:text-xl w-[80%] mt-2'>{props.box4h2}</h2>
+                                <p className='lg:text-[16px] text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box4p}</p>
+                                <div className='flex'>  <h3 className='font-semibold text-xl font-face-gm'>{props.box4h3}</h3><img className='w-8 h-8 ml-3 hover:transform hover:scale-x-150 transition-transform duration-300 ease-in-out ' src={arrow} /></div>
                             </div>
 
                         </div>
 
                         <div className='lg:w-[31%] md:w-[32%] overflow-hidden w-[100%] md:mt-0 mt-10  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[100%] md:w-[100%] m-auto transform transition duration-500 hover:scale-110 sm-[350px] md:h-full' src={box5} /></div>
                             <div className='mx-4 mt-4 '>
-                                <h1 className='font-bold text-[12px]  tracking-widest font-face-gm  '>{props.box5h1}</h1>
-                                <h2 className='font-bold font-face-gm lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box5h2}</h2>
-                                <p className='lg:text-xl text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box5p}</p>
-                                <div className='flex'>  <h3 className='font-face-gm font-semibold text-xl'>{props.box5h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
+                                <h1 className='font-bold text-[14px]  tracking-widest font-face-gm  '>{props.box5h1}</h1>
+                                <h2 className='font-bold font-face-gm lg:text-[22px] md:text-xl w-[80%] mt-2'>{props.box5h2}</h2>
+                                <p className='lg:text-[16px] text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box5p}</p>
+                                <div className='flex'>  <h3 className='font-face-gm font-semibold text-xl'>{props.box5h3}</h3><img className='w-8 h-8 ml-3 hover:transform hover:scale-x-150 transition-transform duration-300 ease-in-out '  src={arrow} /></div>
                             </div>
 
                         </div>
 
                         <div className='lg:w-[31%] md:w-[32%] overflow-hidden w-[100%]  md:mt-0 mt-10  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[100%] md:w-[100%] m-auto transform transition duration-500 hover:scale-110 sm-[350px] md:h-full' src={box6} /></div>
                             <div className='mx-4 mt-4'>
-                                <h1 className='font-bold text-[12px]  tracking-widest font-face-gm '>{props.box6h1}</h1>
-                                <h2 className='font-bold font-face-gm lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box6h2}</h2>
-                                <p className='lg:text-xl text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box6p}</p>
-                                <div className='flex xl:pt-16 lg:pt-32'>  <h3 className='font-semibold text-xl font-face-gm'>{props.box6h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
+                                <h1 className='font-bold text-[14px]  tracking-widest font-face-gm '>{props.box6h1}</h1>
+                                <h2 className='font-bold font-face-gm lg:text-[22px] md:text-xl w-[80%] mt-2'>{props.box6h2}</h2>
+                                <p className='lg:text-[16px] text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box6p}</p>
+                                <div className='flex xl:pt-16 lg:pt-32'>  <h3 className='font-semibold text-xl font-face-gm'>{props.box6h3}</h3><img className='w-8 h-8 ml-3 hover:transform hover:scale-x-150 transition-transform duration-300 ease-in-out ' src={arrow} /></div>
                             </div>
                         </div>
                     </div>
@@ -336,20 +336,20 @@ function User(props) {
                     <div className='md:flex md:flex-row flex text-[12px]  tracking-widest flex-col  px-10 pt-10 pb-20  text-left '>
                         <div className='lg:w-[31%] md:w-[32%] overflow-hidden w-[100%] bg-[#fff]'> <div className='md:h-[200px] sm:h-500px ' ><img className='lg:w-[100%] md:w-[100%] m-auto  transform transition duration-500 hover:scale-110 sm-[350px] md:h-full' src={box7} /></div>
                             <div className='mx-4 mt-4 '>
-                                <h1 className='font-bold  font-face-gm'>{props.box1h1}</h1>
-                                <h2 className='font-bold font-face-gm lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
-                                <p className='lg:text-xl text-[#2C4641] md:text-lg font-face-rm mt-2 mb-5'> {props.box1p}</p>
-                                <div className='flex'>  <h3 className='font-face-gm font-semibold text-xl'>{props.box1h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
+                                <h1 className='font-bold text-[14px]  font-face-gm'>{props.box1h1}</h1>
+                                <h2 className='font-bold font-face-gm lg:text-[22px] md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
+                                <p className='lg:text-[16px] text-[#2C4641] md:text-lg font-face-rm mt-2 mb-5'> {props.box1p}</p>
+                                <div className='flex'>  <h3 className='font-face-gm font-semibold text-xl'>{props.box1h3}</h3><img className='w-8 h-8 ml-3 hover:transform hover:scale-x-150 transition-transform duration-300 ease-in-out '  src={arrow} /></div>
                             </div>
 
                         </div>
 
                         <div className='lg:w-[31%]  overflow-hidden md:w-[32%] md:mt-0 mt-10  w-[100%] md:mx-16  bg-[#fff]'> <div className='md:h-[200px] sm:h-500px '><img className='lg:w-[100%] md:w-[100%] m-auto  sm-[350px] md:h-full transform transition duration-500 hover:scale-110' src={box8} /></div>
                             <div className='mx-4 mt-4 '>
-                                <h1 className='font-bold text-[12px]  tracking-widest font-face-gm '>{props.box1h1}</h1>
-                                <h2 className='font-bold font-face-gm lg:text-2xl md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
-                                <p className='lg:text-xl text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box1p}</p>
-                                <div className='flex'>  <h3 className='font-semibold font-face-gm text-xl'>{props.box1h3}</h3><img className='w-8 h-8 ml-3' src={arrow} /></div>
+                                <h1 className='font-bold text-[14px]  tracking-widest font-face-gm '>{props.box1h1}</h1>
+                                <h2 className='font-bold font-face-gm lg:text-[22px] md:text-xl w-[80%] mt-2'>{props.box1h2}</h2>
+                                <p className='lg:text-[16px] text-[#2C4641] font-face-rm md:text-lg mt-2 mb-5'> {props.box1p}</p>
+                                <div className='flex'>  <h3 className='font-semibold font-face-gm text-xl'>{props.box1h3}</h3><img className='w-8 h-8 ml-3 hover:cursor-pointer hover:transform hover:scale-x-150 transition-transform duration-300 ease-in-out 'src={arrow} /></div>
                             </div>
                         </div>
                  
@@ -357,7 +357,12 @@ function User(props) {
                 </div>
             </div>
             </div>
-            
+            <div className=' flex absolute top-[425px] right-[140px] z-50  flex-col'>
+                <div className='fixed flex flex-col'> 
+                <button className='font-face-gm w-32 h-[66px] text-[19px] py-5 px-7 text-white bg-[#3E5153]'>Contact</button>
+                <button className='mt-1 font-face-gm w-32 h-[66px] text-[19px] py-5 px-7 text-white bg-[#3E5153]'>Demo</button>
+                </div>
+            </div>
         </div>
         
     )

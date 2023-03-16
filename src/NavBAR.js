@@ -34,10 +34,10 @@ function NavBar(props) {
          
             <div className='flex bg-white max-w-[1400px]  w-[100%]  justify-between   xl:fixed sticky z-50 xl:top-0   ' >
                 
-                <div className='sm:w-[260px] sm:mx-0  mx-4 w-[50%] pt-4 pb-4 sm:px-8'>
-                    <img className='md:w-[100%] sm:mb-0 mb-1 sm:w-[80%]' src={logo} />
+                <div className='sm:w-[240px] sm:mx-0  mx-4 w-[50%] pt-4 pb-4 sm:pl-8 sm:'>
+                    <img className='md:w-[85%] sm:mb-0 mb-1 sm:w-[80%]' src={logo} />
                 </div>
-                <ul className="w-[60%]  pr-5 hidden font-face-rm lg:flex justify-start py-6    text-[#293e40] text-lg">
+                <ul className="w-[60%]  xl:mr-10 pr-5 hidden font-face-rm lg:flex justify-start py-6    text-[#293e40] text-[16px]">
                     <li className='pr-5  cursor-pointer ' onClick={() => handleClick(1)} > <a>{props.Solution}</a></li>
                     <li className='pr-5 cursor-pointer' onClick={() => handleClick(2)}> <a>{props.product}</a></li>
                     <li className='pr-5 cursor-pointer' onClick={() => handleClick(3)}> <a>{props.Platform}</a></li>

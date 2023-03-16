@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div style={{width:' 100%'}} className="App  font-face-gm">
+         
 
       <NavBAR product='Products' Solution='Solutions' Platform='Platform'
         Customer='Customers' Events='Events' About='About' button='Get Started' img={logo} />
