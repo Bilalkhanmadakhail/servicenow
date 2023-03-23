@@ -5,21 +5,12 @@
 
 
 @font-face {
-    font-family: "Gilroy-Bold";
+    font-family: "Poppins-Regular.ttf";
     src: local("fonts"),
-     url("./fonts/Gilroy-Bold.ttf") format("truetype");
-    font-weight: bold;
+     url("./fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
     }
     
-@font-face {
-    font-family: "Gilroy-Regular";
-    src: local("fonts"),
-     url("./fonts/Gilroy-Regular.ttf") format("truetype");
-    font-weight: bold;
-    }
-    @font-face {
-        font-family: "Gilroy-Medium";
-        src: local("fonts"),
-         url("./fonts/Gilroy-Medium.ttf") format("truetype");
-        font-weight: bold;
-        }
+
+    
+    
