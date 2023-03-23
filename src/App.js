@@ -6,6 +6,7 @@ import Student from './hero/Student'
 import User from './hero/User'
 import Section from './section/Section'
 import Crypto from './section/Crypto'
+import Last from './section/Last'
 
 import './fonts/Poppins-Regular.ttf';
 
@@ -30,6 +31,7 @@ function App() {
     <User busines='FOR BUSINESSES' crypto='Pay in Crypto, Stay in Fiat' p3='Contractors paid globally' p4='without any crypto on your books' btn3='Pay with crypto' btn4='Learn more'/>
     <Section/>
     <Crypto/>
+    <Last/>
     </div>
 
 
