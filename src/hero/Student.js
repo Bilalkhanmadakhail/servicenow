@@ -12,7 +12,7 @@ function Student(props) {
 
     return (
 
-        <div className='bg-[#F0E4CF]'>
+        <div className='bg-[#F0E4CF] '>
                 <div className='mt-28 flex justify-center items-center'>
                     <p className='xl:text-[72px] lg:text-[65px] sm:text-[55px] font-extrabold xl:leading-[80px] lg:leading-[65px] sm:leading-[40px] text-[#1A2147]' >{props.h1}</p>
                 </div>
@@ -24,8 +24,8 @@ function Student(props) {
                 </div>
 
                 <div className='mt-[85px]'>
-                    <div className='hidden xl:block'><img className='absolute w-[144px] h-[108px] left-[136px]  top-[520px]' src={left}/></div>
-                    <div className='hidden xl:block'><img className='absolute w-[177px] h-[140px] left-[1037px]  top-[490px]' src={right}/></div>
+                    <div className='hidden xl:block'><img className='absolute w-[144px] h-[108px] 2xl:left-[196px] 4xl:hidden 3xl:left-[306px] xl:left-[136px]  top-[520px]' src={left}/></div>
+                    <div className='hidden xl:block'><img className='absolute w-[177px] h-[140px] 2xl:left-[1080px] 3xl:left-[1150px] 4xl:hidden  xl:left-[1037px]  top-[490px]' src={right}/></div>
                     <div className='flex items-center justify-center'>
 
                         <img className='xl:w-[820px] xl:h-[302px] sm:w-[70%]' src={center}/>

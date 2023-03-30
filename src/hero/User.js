@@ -11,9 +11,9 @@ function User(props) {
 
 
     return (
-        <div>
-<div className='bg-[#EBF3F5] border-2 absolute top-[955px] sm:mx-10 lg:mx-16 xl:mx-32  border-[#FFFFFF] rounded-3xl'>
-       <div className=' xl:flex xl:justify-start  lg:flex lg:justify-between'>
+        <div >
+<div className='bg-[#EBF3F5] border-2 absolute top-[955px] sm:mx-10  3xl:ml-20 lg:mx-16 xl:ml-[130px]  xl:mr-[130px]   border-[#FFFFFF] rounded-3xl'>
+       <div className=' xl:flex xl:justify-start  w-[100%] lg:flex lg:justify-between'>
         <div className='xl:ml-20 lg:ml-10 sm:ml-16 lg:w-[40%] xl:w-[50%]'> 
             <div className='' >
                 <button className='py-2 mt-[70px] bg-[#FFFFFF] rounded-md text-[#1A2147] text-[14px] leading-6 text-center px-3'>{props.busines}</button>

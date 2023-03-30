@@ -15,7 +15,7 @@ function Last(props) {
         <div className='relative'>
             <div className='absolute bg-[#1A2147]  lg:-top-36 -top-56 rounded-3xl md:w-[90%] xl:w-[80%] sm:mx-[60px]  xl:mx-[130px] lg:flex lg:flex-row flex flex-col'>
                 <div className='flex w-[100%] lg:w-[80%]'>
-                    <div className='ml-14'><img className='xl:w-14 md:w-20 md:h-14 lg:h-8 mt-10' src={blue1}/></div>
+                    <div className='ml-14'><img className='xl:w-20 md:w-20 md:h-14 lg:h-8 mt-10' src={blue1}/></div>
                     <div className='mt-10 ml-14 mr-20'>
                         <p className='text-[22px] leading-[32px] font-extrabold text-white'>
                         World Class Security
@@ -26,7 +26,7 @@ function Last(props) {
                     </div>
                 </div>
                 <div className='flex w-[100%] lg"w-[50%]'>
-                    <div className='ml-14'><img className='xl:w-14 lg:w-20 md:w-20 md:h-14 lg:h-8 mt-10'  src={blue2}/></div>
+                    <div className='ml-14'><img className='xl:w-20 lg:w-20 md:w-20 md:h-14 lg:h-8 mt-10'  src={blue2}/></div>
                     <div className='mt-10 ml-14 mr-20'>
                         <p className='text-[22px] leading-[32px] font-extrabold text-white'>
                         World Class Support
@@ -48,7 +48,7 @@ function Last(props) {
             <h1 className='lg:text-[72px] md:text-[60px]  sm:text-4xl lg:mt-0 md:mt-28 sm:mt-36 leading-[80px] font-extrabold text-[#1A2147] text-center'>Get Started Today! </h1>
 
         </div>
-        <div className=' bg-[#F0E4CF] lg:pl-[150px] sm:px-16 flex flex-col lg:flex lg:justify-between lg:pr-[150px]'>
+        <div className=' bg-[#F0E4CF] lg:pl-[150px] sm:px-16 md:flex md:flex-row flex flex-col lg:flex lg:justify-between lg:pr-[150px]'>
             <div className=' lg:w-[40%] sm:w-[100%]'>
                 <p className='text-[24px] text-[#1A2147] mt-[57px] leading-[36px] text-center'>
                 Businesses
@@ -87,7 +87,7 @@ leading-[32px] text-[#1A2147] text-center opacity-[0.7] pb-[144px]'>CEO Comico, 
        </div>
 
        <div className='flex justify-between pb-[62px]'>
-        <div className='lg:w-[20%] w-[40%]'>
+        <div className='lg:w-[25%] w-[40%]'>
             <ul className='text-[17px] sm:px-16 lg:pl-[130px] mt-10 leading-[26px] text-[#1A2147]'>
                 <li  className='opacity-[0.7] pb-[18px]'>Product</li>
                 <li  className='pb-[18px]'>For business</li>

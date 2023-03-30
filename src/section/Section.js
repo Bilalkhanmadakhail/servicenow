@@ -45,7 +45,7 @@ function Section(props) {
             <p className='lg:text-[32px] sm:text-2xl md:mt-[20px] xl:mt-[130px] leading-[42px] text-center font-extrabold text-[#1A2147]'>Track Your Clients, Invoices</p><p className='lg:text-[32px] md:text-2xl leading-[42px] text-center font-extrabold text-[#1A2147]'> & Crypto Payments Easily</p>
             <p className='text-center sm:text-[18px] md:pb-0 sm:pb-10 lg:text-[22px] sm:px-10 lg:px-[285px] xl:mt-[30px] sm:mt-6 leading-8 text-[#1A2147]'>We will provide you with a European bank account to which you will receive fiat. As soon as you get it, we will exchange it and send crypto directly to your wallet. Start earning crypto today!</p>
             
-            <img className='absolute top-[4200px] xl:block hidden left-[860px]' src={Image}/>
+            <img className='absolute top-[4200px] 3xl:hidden xl:block hidden left-[860px]' src={Image}/>
           
             <div className='xl:mt-32 sm:mt-5 lg:mt-10 mx-10'>
                 <img className='sm:hidden md:block'  src={card}/>

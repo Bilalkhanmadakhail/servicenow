@@ -5,14 +5,14 @@ import React, { useState } from 'react'
 
 
 
-function NavBAR(props) {
+function Navbar(props) {
   
 
   
     return (
 
     <div className=' '>
-         <div className='flex justify-between font-face-GT lg:px-10 sm:px-5  xl:pl-10 xl:pr-16'>
+       <div className='flex justify-between font-face-GT px-[100px]'>
         <div className='pt-6  '>
             <img className='xl:w-48 xl:h-12 lg:w-40 lg:h-10 sm:w-32 sm:h-9' src={logo}/>
         </div>
@@ -33,4 +33,4 @@ function NavBAR(props) {
     )
 }
 
-export default NavBAR;
+export default Navbar;
