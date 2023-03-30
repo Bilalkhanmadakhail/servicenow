@@ -14,7 +14,7 @@ function Section(props) {
 
 
     return (
-        <div className='xl:mt-[400px] lg:mt-[300px] md:mt-[900px]'>
+        <div className='xl:mt-[400px] lg:mt-[300px] sm:mt-[630px] md:mt-[900px]'>
 <div className='lg:flex lg:flex-row sm:flex  sm:flex-col  lg:justify-between sm:mx-[60px] xl:mx-[130px]'>
     <div className='xl:w-[46%] lg:w-[48%] sm:w-[100%] lg:mt-20 sm:mt-5 bg-[#F9F7EC]  lg:h-[693px]'>
         <img className='lg:mt-[111px] sm:mt-[80px] w-[157px] h-[67px] mx-auto' src={box1}/>
@@ -32,22 +32,22 @@ function Section(props) {
     </div>
 </div>
 
-<div className='mt-[90px] xl:mx-32 md:mx-16'>
+<div className='mt-[90px] xl:mx-32 sm:mx-16'>
     <div className='bg lg:h-auto'>
 <div className='flex justify-center' >
                 <button className='py-2  mt-[70px] bg-[#FFFFFF] rounded-md text-[#1A2147] text-[14px] leading-6 flex items-center justify-center  text-center px-3'>For contractors</button>
             </div>
-            <h1 className='lg:text-[60px] md:text-4xl mt-9 leading-[68px] font-extrabold text-center #1A2147'>Get Paid in Crypto</h1>
-            <h2 className='lg:text-2xl md:text-xl mt-10 text-[#1A2147] text-center'>Invoice Clients Anywhere in the World</h2>
-            <p className='lg:text-[22px] md:text-[18px] leading-8  xl:mt-10 md:mt-5  text-center lg:px-[290px] md:px-10 text-[#1A2147]'>Get paid in crypto globally, directly to your wallet. Enjoy faster payments, low commissions and security with Archway.</p>
-            <button className='bg-[#8F6FF6] md:mt-7 xl:mt-14 md:text-[18px] lg:text-[22px] leading-6 font-extrabold text-white rounded-lg flex justify-center mx-auto px-9 sm:py-4 lg:py-6'>Get Paid in Crypto</button>
-            <button className='border-[#8F6FF6] border-[1px] mt-5 md:text-[18px] lg:text-[22px]leading-6 font-extrabold text-[#8F6FF6] rounded-lg flex justify-center mx-auto px-9 sm:py-4 lg:py-6'>Learn more</button>
-            <p className='lg:text-[32px] md:text-2xl md:mt-[20px] xl:mt-[130px] leading-[42px] text-center font-extrabold text-[#1A2147]'>Track Your Clients, Invoices</p><p className='lg:text-[32px] md:text-2xl leading-[42px] text-center font-extrabold text-[#1A2147]'> & Crypto Payments Easily</p>
-            <p className='text-center md:text-[18px] lg:text-[22px] md:px-10 lg:px-[285px] xl:mt-[30px] md:mt-6 leading-8 text-[#1A2147]'>We will provide you with a European bank account to which you will receive fiat. As soon as you get it, we will exchange it and send crypto directly to your wallet. Start earning crypto today!</p>
+            <h1 className='lg:text-[60px] sm:text-4xl mt-9 leading-[68px] font-extrabold text-center #1A2147'>Get Paid in Crypto</h1>
+            <h2 className='lg:text-2xl sm:text-xl mt-10 text-[#1A2147] text-center'>Invoice Clients Anywhere in the World</h2>
+            <p className='lg:text-[22px] sm:text-[18px] leading-8  xl:mt-10 md:mt-5  text-center lg:px-[290px] sm:px-10  text-[#1A2147]'>Get paid in crypto globally, directly to your wallet. Enjoy faster payments, low commissions and security with Archway.</p>
+            <button className='bg-[#8F6FF6] sm:mt-7 xl:mt-14 sm:text-[18px] lg:text-[22px] leading-6 font-extrabold text-white rounded-lg flex justify-center mx-auto px-9 sm:py-4 lg:py-6'>Get Paid in Crypto</button>
+            <button className='border-[#8F6FF6] border-[1px] mt-5 sm:text-[18px] lg:text-[22px]leading-6 font-extrabold text-[#8F6FF6] rounded-lg flex justify-center mx-auto px-9 sm:py-4 lg:py-6'>Learn more</button>
+            <p className='lg:text-[32px] sm:text-2xl md:mt-[20px] xl:mt-[130px] leading-[42px] text-center font-extrabold text-[#1A2147]'>Track Your Clients, Invoices</p><p className='lg:text-[32px] md:text-2xl leading-[42px] text-center font-extrabold text-[#1A2147]'> & Crypto Payments Easily</p>
+            <p className='text-center sm:text-[18px] lg:text-[22px] sm:px-10 lg:px-[285px] xl:mt-[30px] sm:mt-6 leading-8 text-[#1A2147]'>We will provide you with a European bank account to which you will receive fiat. As soon as you get it, we will exchange it and send crypto directly to your wallet. Start earning crypto today!</p>
             
             <img className='absolute top-[4230px] xl:block hidden left-[900px]' src={Image}/>
           
-            <div className='xl:mt-32 md:mt-5 lg:mt-10 mx-10'>
+            <div className='xl:mt-32 sm:mt-5 lg:mt-10 mx-10'>
                 <img src={card}/>
             </div>
 
