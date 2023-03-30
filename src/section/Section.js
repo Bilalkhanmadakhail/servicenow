@@ -33,7 +33,7 @@ function Section(props) {
 </div>
 
 <div className='mt-[90px] xl:mx-32 sm:mx-16'>
-    <div className='bg w-[100%] lg:h-auto h-auto'>
+    <div className='bg w-[100%] lg:bg-cover bg-cover lg:h-auto h-auto'>
 <div className='flex justify-center' >
                 <button className='py-2  mt-[70px] bg-[#FFFFFF] rounded-md text-[#1A2147] text-[14px] leading-6 flex items-center justify-center  text-center px-3'>For contractors</button>
             </div>

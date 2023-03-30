@@ -20,43 +20,43 @@ function Card(props) {
 
     return (
 <div className='mt-20'>
-             <div className=' text-[32px] flex justify-between leading-[42px] text-[#1A2147] font-extrabold xl:mx-[100px] '>
-                <div className='w-[50%]'>
+             <div className=' text-[32px] lg:mx-12 mx-8 lg:flex justify-between leading-[42px] text-[#1A2147] font-extrabold xl:mx-[100px] '>
+                <div className='xl:w-[50%] lg:w-[30%]'>
 
                 <p>
                 Save Money
                 </p>
                 </div>
-                <div className='flex justify-between w-[45%]'>
-                    <button className='text-[20px] px-[20px] py-[10px] leading-[32px] text-[#4FAD84] w-[195px] font-normal bg-[#EDF7F3] rounded-lg'>No monthly fees</button>
-                    <button className='text-[20px] px-[20px] py-[10px] leading-[32px] text-[#8265E0] w-[255px] font-normal bg-[#F4F1FE] rounded-lg'>Low commission ~ 2%</button>
+                <div className='flex justify-between lg:mt-0 mt-6 xl:w-[40%] lg:w-[47%] w-[100%]'>
+                    <button className='text-[20px] px-[20px] py-[10px]  w-[45%] leading-[32px] text-[#4FAD84] lg:w-[195px] font-normal bg-[#EDF7F3] rounded-lg'>No monthly fees</button>
+                    <button className='text-[20px] px-[20px] py-[10px]  w-[45%]  leading-[32px] text-[#8265E0] lg:w-[255px] font-normal bg-[#F4F1FE] rounded-lg'>Low commission ~ 2%</button>
                 </div>
             </div>
-            <div className=' md:flex flex flex-col md:flex-row px-[100px] md:justify-between'>
-          <div className='mt-[91px] w-[100%]  md:w-[22%]'>
+            <div className=' lg:flex flex   items-center justify-center  flex-col lg:flex-row lg:mx-[100px] mx-8'>
+          <div className='mt-[91px] w-[100%]  lg:w-[22%]'>
             <img className='pl-[10px]' src={box7}/>
-            <p className='  mt-12 text-[26px] leading-[27px] font-extrabold text-[#313336]'>Accounting
+            <p className='  mt-12 text-[26px]  leading-[27px] font-extrabold text-[#313336]'>Accounting
 Friendly</p>
 <p className='mt-4 text-[17px] leading-[26px] text-[#596062]'>Pay invoices using EUR or GBP. <br></br>We deliver crypto to contractors.</p>
 <p className=' text-[17px] mt-3 leading-[26px] text-[#596062]'>No crypto on accounting books</p>
 
 
           </div>
-          <div className='mt-[91px] w-[100%]  md:w-[22%]'>
+          <div className='mt-[91px] w-[100%]  lg:w-[22%]'>
             <img className='pl-[10px]' src={box8}/>
             <p className='  mt-12 text-[26px] leading-[32px] font-extrabold text-[#313336]'>Regulatory Compliance</p>
 <p className='mt-4 text-[17px] leading-[26px] text-[#596062]'>EU Licensed enjoy peace of mind</p>
 <p className=' text-[17px] mt-3 leading-[26px] text-[#596062]'>Regulatory compliant</p>
 
           </div>
-          <div className='mt-[80px] w-[100%]  md:w-[22%]'>
+          <div className='mt-[80px] w-[100%]  lg:w-[22%]'>
             <img className='pl-[10px]' src={box9}/>
             <p className='  mt-12 text-[26px] leading-[32px] font-extrabold text-[#313336]'>No <br></br> Restrictions</p>
 <p className='mt-4 text-[17px] leading-[26px] text-[#596062]'>Send payments globally</p>
 
 
           </div>
-          <div className='mt-[85px] w-[100%]  md:w-[22%]'>
+          <div className='mt-[85px] w-[100%]  lg:w-[22%]'>
             <img className='pl-[10px]' src={box10}/>
             <p className='  mt-12 text-[26px] leading-[32px] font-extrabold text-[#313336]'>Faster
 Payments</p>
@@ -71,8 +71,8 @@ Payments</p>
 
 
 
-          <div className='mt-[90px] xl:mx-[100px] sm:mx-16'>
-    <div className='bg w-[100%] lg:h-auto h-auto'>
+          <div className='mt-[90px] xl:mx-[100px] sm:mx-8'>
+    <div className='bg md:w-[100%] w-[80%] lg:bg-cover md:bg-cover bg-contain lg:mx-0 items-center flex flex-col justify-center mx-auto  md:h-auto h-auto'>
 
             <h1 className='lg:text-[60px] sm:text-4xl pt-[200px] leading-[68px] font-extrabold text-center #1A2147'>How it works</h1>
             
@@ -81,7 +81,7 @@ Payments</p>
             <div className='mt-36 mx-auto flex'> 
                 <img className='w-[70%] mx-auto' src={center}/>
             </div>
-            <div className='mt-32 px-[200px] justify-between flex'>
+            <div className='lg:mt-32 md:mt-24 mt-16 lg:px-[200px] px-8 justify-between flex'>
                 <div className='w-[28%]'>
                     <img src={one}/>
                     <p className=' mb-[120px] mt-6 text-[17px] leading-[26px] text-[#1A2147] '>
@@ -97,7 +97,7 @@ Payments</p>
                 </div>
                 <div className='w-[28%]'>
                     <img src={three}/>
-                    <p className=' mb-[120px] mt-6 text-[17px] leading-[26px] text-[#1A2147] '>
+                    <p className=' mb-[120px] md:pb-0 pb-6 mt-6 text-[17px] leading-[26px] text-[#1A2147] '>
                     Archway accepts fiat payment, exchanges it for crypto and sends it out to the contractor 
                     </p>
                 </div>

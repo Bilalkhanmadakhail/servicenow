@@ -12,7 +12,7 @@ function Navbar(props) {
     return (
 
     <div className=' '>
-       <div className='flex justify-between font-face-GT px-[100px]'>
+       <div className='flex justify-between font-face-GT sm:px-8 lg:px-12 xl:px-[100px]'>
         <div className='pt-6  '>
             <img className='xl:w-48 xl:h-12 lg:w-40 lg:h-10 sm:w-32 sm:h-9' src={logo}/>
         </div>
