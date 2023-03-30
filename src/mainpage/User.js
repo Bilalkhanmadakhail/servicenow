@@ -16,20 +16,20 @@ function User(props) {
        <div className=' xl:flex xl:justify-start  w-[100%] lg:flex lg:justify-between'>
         <div className='xl:ml-20 lg:ml-10 sm:ml-16 lg:w-[40%] xl:w-[50%]'> 
             <div className='' >
-                <button className='py-2 mt-[70px] bg-[#FFFFFF] rounded-md text-[#1A2147] text-[14px] leading-6 text-center px-3'>{props.busines}</button>
+                <button className='py-2 mt-[70px] font-gtPlanner bg-[#FFFFFF] rounded-md text-[#1A2147] text-[14px] leading-6 text-center px-3'>{props.busines}</button>
             </div>
             <div className='mt-10'> 
-                <p className='xl:text-[60px] sm:text-3xl md:text-[45px] lg:leading-[50px]  xl:leading-[68px] text-[#1A2147] font-extrabold'>{props.crypto}</p>
+                <p className='xl:text-[60px] sm:text-3xl font-poppins md:text-[45px] lg:leading-[50px]  xl:leading-[68px] text-[#1A2147] font-extrabold'>{props.crypto}</p>
             </div>
             <div className='mt-10 '> 
                 <p className='xl:text-[24px] sm:text-[24px] lg:text-[22px] leading-[36px] text-[#1A2147] '>{props.p3}</p><p className='xl:text-[24px] sm:text-[24px] lg:text-[22px] leading-[36px] text-[#1A2147]  '>
 {props.p4}</p>
             </div>
             <div className='mt-[50px]'>
-                <button className='px-9 py-[22px] bg-[#4FAD84] rounded-lg text-[#FFFFFF] xl:text-[22px] sm:text-[22px]  lg:text-[20px] font-extrabold leading-6'>{props.btn3}</button>
+                <button className='px-9 py-[22px] font-poppins bg-[#4FAD84] rounded-lg text-[#FFFFFF] xl:text-[22px] sm:text-[22px]  lg:text-[20px] font-extrabold leading-6'>{props.btn3}</button>
             </div>
             <div className='mt-[20px]'>
-                <button className='px-9 py-[22px] sm:text-[22px]  text-[#4FAD84] border-[1px] border-[#4FAD84] rounded-lg bg-[#FFFFFF] xl:text-[22px] lg:text-[20px] font-extrabold leading-6'>{props.btn4}</button>
+                <button className='px-9 py-[22px] font-poppins sm:text-[22px]  text-[#4FAD84] border-[1px] border-[#4FAD84] rounded-lg bg-[#FFFFFF] xl:text-[22px] lg:text-[20px] font-extrabold leading-6'>{props.btn4}</button>
             </div>
         </div>
         <div  className=' lg:w-[50%] sm:w-[80%] sm:mx-auto mt-[70px]'>
@@ -54,7 +54,7 @@ function User(props) {
 <div>
     <div className='h-[693px]'>
         <img className='mt-[111px]'/>
-        <h1 className='mt-[93px] text-[#1A2147] text-center leading-[52px] text-4xl'>API for Marketplaces</h1>
+        <h1 className='mt-[93px] text-[#1A2147] text-center font-poppins leading-[52px] text-4xl'>API for Marketplaces</h1>
 
     </div>
 </div>

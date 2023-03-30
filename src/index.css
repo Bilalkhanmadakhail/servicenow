@@ -3,8 +3,22 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: 'gt-planner';
+    src: url('./fonts/GT-Planar-Regular-Trial-BF63bcd9a5c44bb.otf');
+    font: normal;
+}
+@font-face {
+    font-family: 'poppins';
+    src: url('./fonts/Poppins-Bold.ttf');
+  font: 800;
+}
 
-
+@font-face {
+  font-family: 'sarif';
+  src: url('./fonts/SourceSerifPro-Regular.ttf');
+font: 400;
+}
 
     
     

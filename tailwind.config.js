@@ -4,6 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      gtPlanner: ["gt-planner", "sans-serif"],
+   
+      poppins: ["poppins", "sans-serif"],
+      sarif: ["sarif", "sans-serif"],
+
+    },
+
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

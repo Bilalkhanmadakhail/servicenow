@@ -20,14 +20,14 @@ function Card2(props) {
     return (
 <div className='mt-20'>
              <div className='lg:mx-12 mx-8 flex flex-col justify-center text-center  text-[#1A2147]  xl:mx-[0px] '>
-                <div className=' leading-[42px] font-extrabold text-[32px] w-[100%]'>
+                <div className=' leading-[42px] font-poppins text-[32px] w-[100%]'>
 
                 <p>
                 Benefits
                 </p>
                 </div>
                 <div className='flex justify-center text-2xl lg:mt-0 mt-6 w-[100%]'>
-                 <p className='w-[60%] mt-10'>
+                 <p className='w-[60%] font-gtPlanner mt-10'>
                  Want to turn investor fiat or other funds into crypto to pay your DAO contributors, token holders or other DAOs like you but can’t because of regulation or legal restrictions?
                  </p>
                 </div>
@@ -36,24 +36,24 @@ function Card2(props) {
       
           <div className='mt-[80px] w-[100%]   lg:w-[25%]'>
             <img className='pl-[10px] mx-auto' src={box11}/>
-            <p className='  mt-16 text-[26px] leading-[32px] font-extrabold text-[#313336]'>Crypto
+            <p className='  mt-16 text-[26px] leading-[32px] font-poppins text-[#313336]'>Crypto
 Without Hassle</p>
-<p className='mt-4 text-[17px] leading-[26px] text-[#596062]'>No crypto on accounting </p>
-<p className=' text-[17px]  leading-[26px] text-[#596062]'>books</p>
+<p className='mt-4 text-[17px] font-gtPlanner leading-[26px] text-[#596062]'>No crypto on accounting </p>
+<p className=' text-[17px] font-gtPlanner leading-[26px] text-[#596062]'>books</p>
 
           </div>
           <div className='mt-[50px] w-[100%]  lg:w-[25%]'>
             <img className='pl-[10px] mx-auto' src={box7}/>
-            <p className='  mt-12 text-[26px] leading-[32px] font-extrabold text-[#313336]'>Accounting
+            <p className='  mt-12 text-[26px] leading-[32px] font-poppins text-[#313336]'>Accounting
 Friendly</p>
-            <p className='mt-4 text-[17px] leading-[26px] text-[#596062]'>For your investors</p>
+            <p className='mt-4 text-[17px] font-gtPlanner leading-[26px] text-[#596062]'>For your investors</p>
 
           </div>
           <div className='mt-[40px] w-[100%]  lg:w-[25%]'>
             <img className='pl-[10px] mx-auto' src={box9}/>
-            <p className='  mt-12 text-[26px] leading-[32px] font-extrabold text-[#313336]'>No
+            <p className='  mt-12 text-[26px] leading-[32px] font-poppins text-[#313336]'>No
 Restrictions</p>
-<p className='mt-4 text-[17px] leading-[26px] text-[#596062]'>Skip the regulatory headaches</p>
+<p className='mt-4 text-[17px] font-gtPlanner leading-[26px] text-[#596062]'>Skip the regulatory headaches</p>
 
 
 
@@ -67,13 +67,13 @@ Restrictions</p>
           <div className='mt-[90px] xl:mx-[100px] sm:mx-8'>
     <div className='bgbrown md:w-[100%] w-[80%] lg:bg-contain md:bg-cover bg-contain lg:mx-0 items-center flex flex-col justify-center mx-auto  md:h-2000px h-auto'>
 
-            <h1 className='lg:text-[60px] sm:text-4xl pt-32 lg:pt-[200px] leading-[68px] font-extrabold text-center #1A2147'>How it works</h1>
+            <h1 className='lg:text-[60px] font-poppins sm:text-4xl pt-32 lg:pt-[200px] leading-[68px] font-extrabold text-center #1A2147'>How it works</h1>
             
-            <p className='lg:text-[22px] sm:text-[18px] leading-8  xl:mt-10 md:mt-5  text-center lg:px-[325px] sm:px-28 text-[#1A2147]'>With Archway Finance you can stay aligned to the principles of your DAO. Receive EUR/GBP fiat funds and turn them into crypto for all your payment needs without any crypto on your books!</p>
+            <p className='lg:text-[22px] sm:text-[18px] leading-8 font-gtPlanner xl:mt-10 md:mt-5  text-center lg:px-[325px] sm:px-28 text-[#1A2147]'>With Archway Finance you can stay aligned to the principles of your DAO. Receive EUR/GBP fiat funds and turn them into crypto for all your payment needs without any crypto on your books!</p>
               
-            <p className='lg:text-[22px] sm:text-[18px] leading-8 xl:block hidden  xl:mt-10 md:mt-5  text-center lg:px-[325px] sm:px-28 text-[#1A2147]'>Skip the regulatory nightmare and trust our secure, EU compliant platform to turn fiat into crypto for all your global payment needs.</p>
+            <p className='lg:text-[22px] sm:text-[18px] leading-8 font-gtPlanner xl:block hidden  xl:mt-10 md:mt-5  text-center lg:px-[325px] sm:px-28 text-[#1A2147]'>Skip the regulatory nightmare and trust our secure, EU compliant platform to turn fiat into crypto for all your global payment needs.</p>
             
-            <button className='bg-[#1A2147] sm:mt-7 xl:mt-14 sm:text-[18px] lg:text-[22px] leading-6 font-extrabold text-white rounded-lg flex justify-center mx-auto px-9 sm:py-4 lg:py-6'>Create account</button>
+            <button className='bg-[#1A2147] sm:mt-7 xl:mt-14 sm:text-[18px] lg:text-[22px] leading-6 font-poppins text-white rounded-lg flex justify-center mx-auto px-9 sm:py-4 lg:py-6'>Create account</button>
             <div className='lg:mt-20 mt-12 sm:hidden md:block mx-auto flex'> 
             <img className='w-[70%] mx-auto' src={bgimg}/>
             </div>

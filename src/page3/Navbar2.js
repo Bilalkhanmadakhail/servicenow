@@ -24,8 +24,8 @@ function Navbar(props) {
             </ul>
         </div>
         <div className='font-extrabold sm:text-[14px] xl:text-[16px] pt-6 leading-6'>
-            <button className='text-[#8265E0] rounded-lg xl:w-[96px] sm:w-[80px] sm:h-10 xl:h-12 border-[1px] border-[#8265E0]' >{props.btn1}</button>
-            <button className='ml-3 only: text-[#FFFFFF] bg-[#8265E0]  sm:h-10 xl:h-12 sm:w-[130px] xl:w-[142px] rounded-lg'>{props.btn2}</button>
+            <button className='text-[#1A2147] rounded-lg xl:w-[96px] sm:w-[80px] sm:h-10 xl:h-12 border-[1px] border-[#8265E0]' >{props.btn1}</button>
+            <button className='ml-3 only: text-[#FFFFFF] bg-[#1A2147]  sm:h-10 xl:h-12 sm:w-[130px] xl:w-[142px] rounded-lg'>{props.btn2}</button>
         </div>
        </div>
     </div>
