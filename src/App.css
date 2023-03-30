@@ -15,8 +15,10 @@
 
 .bg{
   background-image: url(./assets/bg.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  width: auto;
+
   /* width: 1000px; */
 }
  .font-face-RG {

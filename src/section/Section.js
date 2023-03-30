@@ -33,7 +33,7 @@ function Section(props) {
 </div>
 
 <div className='mt-[90px] xl:mx-32 sm:mx-16'>
-    <div className='bg lg:h-auto'>
+    <div className='bg w-[100%] lg:h-auto h-auto'>
 <div className='flex justify-center' >
                 <button className='py-2  mt-[70px] bg-[#FFFFFF] rounded-md text-[#1A2147] text-[14px] leading-6 flex items-center justify-center  text-center px-3'>For contractors</button>
             </div>
@@ -43,12 +43,12 @@ function Section(props) {
             <button className='bg-[#8F6FF6] sm:mt-7 xl:mt-14 sm:text-[18px] lg:text-[22px] leading-6 font-extrabold text-white rounded-lg flex justify-center mx-auto px-9 sm:py-4 lg:py-6'>Get Paid in Crypto</button>
             <button className='border-[#8F6FF6] border-[1px] mt-5 sm:text-[18px] lg:text-[22px]leading-6 font-extrabold text-[#8F6FF6] rounded-lg flex justify-center mx-auto px-9 sm:py-4 lg:py-6'>Learn more</button>
             <p className='lg:text-[32px] sm:text-2xl md:mt-[20px] xl:mt-[130px] leading-[42px] text-center font-extrabold text-[#1A2147]'>Track Your Clients, Invoices</p><p className='lg:text-[32px] md:text-2xl leading-[42px] text-center font-extrabold text-[#1A2147]'> & Crypto Payments Easily</p>
-            <p className='text-center sm:text-[18px] lg:text-[22px] sm:px-10 lg:px-[285px] xl:mt-[30px] sm:mt-6 leading-8 text-[#1A2147]'>We will provide you with a European bank account to which you will receive fiat. As soon as you get it, we will exchange it and send crypto directly to your wallet. Start earning crypto today!</p>
+            <p className='text-center sm:text-[18px] md:pb-0 sm:pb-10 lg:text-[22px] sm:px-10 lg:px-[285px] xl:mt-[30px] sm:mt-6 leading-8 text-[#1A2147]'>We will provide you with a European bank account to which you will receive fiat. As soon as you get it, we will exchange it and send crypto directly to your wallet. Start earning crypto today!</p>
             
-            <img className='absolute top-[4230px] xl:block hidden left-[900px]' src={Image}/>
+            <img className='absolute top-[4200px] xl:block hidden left-[860px]' src={Image}/>
           
             <div className='xl:mt-32 sm:mt-5 lg:mt-10 mx-10'>
-                <img src={card}/>
+                <img className='sm:hidden md:block'  src={card}/>
             </div>
 
 </div>

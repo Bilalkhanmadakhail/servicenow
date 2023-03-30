@@ -13,9 +13,9 @@ function Last(props) {
 
     return (
         <div className='relative'>
-            <div className='absolute bg-[#1A2147] -top-36 rounded-3xl lg:w-[90%] xl:w-[80%] lg:mx-[60px]  xl:mx-[130px] flex'>
-                <div className='flex w-[50%]'>
-                    <div className='ml-14'><img className='xl:w-14 lg:w-20 h-8 mt-10' src={blue1}/></div>
+            <div className='absolute bg-[#1A2147]  lg:-top-36 -top-56 rounded-3xl md:w-[90%] xl:w-[80%] sm:mx-[60px]  xl:mx-[130px] lg:flex lg:flex-row flex flex-col'>
+                <div className='flex w-[100%] lg:w-[80%]'>
+                    <div className='ml-14'><img className='xl:w-14 md:w-20 md:h-14 lg:h-8 mt-10' src={blue1}/></div>
                     <div className='mt-10 ml-14 mr-20'>
                         <p className='text-[22px] leading-[32px] font-extrabold text-white'>
                         World Class Security
@@ -25,8 +25,8 @@ function Last(props) {
                         </p>
                     </div>
                 </div>
-                <div className='flex w-[50%]'>
-                    <div className='ml-14'><img className='xl:w-14 lg:w-20 h-8 mt-10'  src={blue2}/></div>
+                <div className='flex w-[100%] lg"w-[50%]'>
+                    <div className='ml-14'><img className='xl:w-14 lg:w-20 md:w-20 md:h-14 lg:h-8 mt-10'  src={blue2}/></div>
                     <div className='mt-10 ml-14 mr-20'>
                         <p className='text-[22px] leading-[32px] font-extrabold text-white'>
                         World Class Support
@@ -43,13 +43,13 @@ function Last(props) {
        <div className='mt-[294px] '>
 
         <div className='bg-[#F0E4CF] '>
-        <div className='pt-[254px] bg-[#F0E4CF]'>
+        <div className='pt-[254px]  bg-[#F0E4CF]'>
 
-            <h1 className='text-[72px] leading-[80px] font-extrabold text-[#1A2147] text-center'>Get Started Today! </h1>
+            <h1 className='lg:text-[72px] md:text-[60px]  sm:text-4xl lg:mt-0 md:mt-28 sm:mt-36 leading-[80px] font-extrabold text-[#1A2147] text-center'>Get Started Today! </h1>
 
         </div>
-        <div className=' bg-[#F0E4CF] pl-[150px] flex justify-between pr-[150px]'>
-            <div className=' w-[40%]'>
+        <div className=' bg-[#F0E4CF] lg:pl-[150px] sm:px-16 flex flex-col lg:flex lg:justify-between lg:pr-[150px]'>
+            <div className=' lg:w-[40%] sm:w-[100%]'>
                 <p className='text-[24px] text-[#1A2147] mt-[57px] leading-[36px] text-center'>
                 Businesses
                 </p>
@@ -60,7 +60,7 @@ function Last(props) {
                 <button className='px-6 py-4 flex justify-center mx-auto text-[16px] mt-[50px] leading-[24px] font-extrabold bg-[#4FAD84] rounded-lg text-white '>Pay with Crypto</button>
             </div>
 
-            <div className=' w-[40%]'>
+            <div className='lg:w-[40%] sm:w-[100%]'>
                 <p className='text-[24px] text-[#1A2147] mt-[57px] leading-[36px] text-center'>
                 Contractors
                 </p>
@@ -75,9 +75,9 @@ function Last(props) {
     
         <hr className='my-20 mx-[150px]'></hr>
        <div>
-        <img className='flex xl:w-[145px] lg:w-[100px] mx-auto' src={coma}/>
-        <div className='text-center lg:text-4xl xl:text-[65px] mt-14 leading-[72px] text-[#4FAD84]'>
-            <p>We didn't expect to use Archway </p><p className='mt-10'>for all our contractors so quickly</p>
+        <img className='flex xl:w-[145px] lg:w-[100px] sm:w-[80px] lg:mt-0 sm:-mt-20 mx-auto' src={coma}/>
+        <div className='text-center sm:text-2xl md:text-4xl xl:text-[65px] mt-14 leading-[72px] text-[#4FAD84]'>
+            <p>We didn't expect to use Archway </p><p className='lg:mt-10 mt-5' >for all our contractors so quickly</p>
         </div>
         <p className='mt-[50px] text-[22px]
 leading-[32px] text-[#1A2147] text-center'>Kirthy Iver</p>
@@ -87,8 +87,8 @@ leading-[32px] text-[#1A2147] text-center opacity-[0.7] pb-[144px]'>CEO Comico, 
        </div>
 
        <div className='flex justify-between pb-[62px]'>
-        <div className='w-[20%]'>
-            <ul className='text-[17px] pl-[130px] mt-10 leading-[26px] text-[#1A2147]'>
+        <div className='lg:w-[20%] w-[40%]'>
+            <ul className='text-[17px] sm:px-16 lg:pl-[130px] mt-10 leading-[26px] text-[#1A2147]'>
                 <li  className='opacity-[0.7] pb-[18px]'>Product</li>
                 <li  className='pb-[18px]'>For business</li>
                 <li className='pb-[18px]' >For contractors</li>
@@ -98,8 +98,8 @@ leading-[32px] text-[#1A2147] text-center opacity-[0.7] pb-[144px]'>CEO Comico, 
 
             </ul>
         </div >
-        <div className='w-[30%]'>
-            <ul className='text-[17px] pl-[130px] mt-10 leading-[26px] text-[#1A2147]'>
+        <div className='w-[30%] lg:block hidden'>
+            <ul className='text-[17px]  lg:pl-[130px] mt-10 leading-[26px] text-[#1A2147]'>
                 <li  className='opacity-[0.7] pb-[18px]'>Social</li>
                 <li  className='pb-[18px]'>Twitter</li>
                 <li className='pb-[18px]' > LinkedIn</li>
@@ -109,7 +109,7 @@ leading-[32px] text-[#1A2147] text-center opacity-[0.7] pb-[144px]'>CEO Comico, 
             </ul>
         </div>
         <div className='w-[50%]'>
-            <ul className='text-[17px] pl-[130px] mt-10 leading-[26px] text-[#1A2147]'>
+            <ul className='text-[17px] pr-16 lg:pl-[130px] mt-10 leading-[26px] text-[#1A2147]'>
            
                
                 <li className='pb-[18px]' ><img src={union}/></li>

@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <div className=' mx-auto'>
+    <div className='max-w-[1400px] mx-auto'>
       
     <div className='bg-[#F0E4CF]  mx-auto h-[1179px]' >
          
