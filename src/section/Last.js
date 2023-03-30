@@ -2,6 +2,8 @@
 import React, { useState } from 'react'
 import coma from '../assets/coma.png'
 import union from '../assets/Union.png'
+import blue1 from '../assets/blue1.png'
+import blue2 from '../assets/blue2.png'
 
 
 
@@ -10,7 +12,36 @@ function Last(props) {
 
 
     return (
+        <div className='relative'>
+            <div className='absolute bg-[#1A2147] -top-36 rounded-3xl lg:w-[90%] xl:w-[80%] lg:mx-[60px]  xl:mx-[130px] flex'>
+                <div className='flex w-[50%]'>
+                    <div className='ml-14'><img className='xl:w-14 lg:w-20 h-8 mt-10' src={blue1}/></div>
+                    <div className='mt-10 ml-14 mr-20'>
+                        <p className='text-[22px] leading-[32px] font-extrabold text-white'>
+                        World Class Security
+                        </p>
+                        <p className='text-[17px] leading-[28px] mt-6 mb-24 text-white'>
+                        Experience Matters. We have been building crypto-related projects since 2014 with the highest standards.
+                        </p>
+                    </div>
+                </div>
+                <div className='flex w-[50%]'>
+                    <div className='ml-14'><img className='xl:w-14 lg:w-20 h-8 mt-10'  src={blue2}/></div>
+                    <div className='mt-10 ml-14 mr-20'>
+                        <p className='text-[22px] leading-[32px] font-extrabold text-white'>
+                        World Class Support
+                        </p>
+                        <p className='text-[17px] leading-[28px] mt-6  text-white'>
+                        Our experts are here to take you by the hand and answer any questions or concerns from the very beginning.
+                        </p>
+                        <p className='text-[17px] underline leading-[28px] mt-2 mb-24 text-[#4FAD84]'>Book a call</p>
+                    </div>
+                </div>
+
+
+            </div>
        <div className='mt-[294px] '>
+
         <div className='bg-[#F0E4CF] '>
         <div className='pt-[254px] bg-[#F0E4CF]'>
 
@@ -44,9 +75,9 @@ function Last(props) {
     
         <hr className='my-20 mx-[150px]'></hr>
        <div>
-        <img className='flex mx-auto' src={coma}/>
-        <div className='text-center text-[65px] mt-14 leading-[72px] text-[#4FAD84]'>
-            <p>We didn't expect to use Archway </p><p>for all our contractors so quickly</p>
+        <img className='flex xl:w-[145px] lg:w-[100px] mx-auto' src={coma}/>
+        <div className='text-center lg:text-4xl xl:text-[65px] mt-14 leading-[72px] text-[#4FAD84]'>
+            <p>We didn't expect to use Archway </p><p className='mt-10'>for all our contractors so quickly</p>
         </div>
         <p className='mt-[50px] text-[22px]
 leading-[32px] text-[#1A2147] text-center'>Kirthy Iver</p>
@@ -98,6 +129,7 @@ leading-[32px] text-[#1A2147] text-center opacity-[0.7] pb-[144px]'>CEO Comico, 
         </p>
        </div>
       
+       </div>
        </div>
     )
 }
