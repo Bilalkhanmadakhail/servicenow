@@ -8,6 +8,9 @@ module.exports = {
       gtPlanner: ["gt-planner", "sans-serif"],
    
       poppins: ["poppins", "sans-serif"],
+      poppinsITB: ["poppinsITB", "sans-serif"],
+      poppinsr: ["poppinsr", "sans-serif"],
+      poppinsIT: ["poppinsIT", "sans-serif"],
       sarif: ["sarif", "sans-serif"],
 
     },
@@ -32,7 +35,7 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        '3xl': '0 0 15px 5px rgba(41, 62, 64, 0.2)',
+        '3xl': '0px 6px 6px rgba(0, 0, 0, 0.03), 0px 18px 18px rgba(0, 0, 0, 0.09)',
       }
     },
   },
